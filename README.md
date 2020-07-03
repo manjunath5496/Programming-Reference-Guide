@@ -9627,7 +9627,7 @@
 </tr>
 </tbody>
 </table>
-
+</br>
 <p><strong>Conditional (Ternary) Operator</strong></p>
 <table class="w3-table-all notranslate">
 <tbody>
@@ -9667,6 +9667,7 @@
 </tr>
 </tbody>
 </table>
+</br>
 <p><strong>JavaScript Bitwise Operators</strong></p>
 <table class="w3-table-all notranslate">
 <tbody>
@@ -9728,3 +9729,77 @@
 </tr>
 </tbody>
 </table>
+</br>
+<p><strong>Comparison Operators</strong></p>
+<p>Given that&nbsp;<strong>x = 5</strong>, the table below explains the comparison operators:</p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Operator</th>
+<th>Description</th>
+<th>Comparing</th>
+<th>Returns</th>
+</tr>
+<tr>
+<td rowspan="2">==</td>
+<td rowspan="2">equal to</td>
+<td>x == 8</td>
+<td>false</td>
+</tr>
+<tr>
+<td>x == 5</td>
+<td>true</td>
+</tr>
+<tr>
+<td rowspan="2">===</td>
+<td rowspan="2">equal value and equal type</td>
+<td>x === "5"</td>
+<td>false</td>
+</tr>
+<tr>
+<td>x === 5</td>
+<td>true</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>not equal</td>
+<td>x != 8</td>
+<td>true</td>
+</tr>
+<tr>
+<td rowspan="2">!==</td>
+<td rowspan="2">not equal value or not equal type</td>
+<td>x !== "5"</td>
+<td>true</td>
+</tr>
+<tr>
+<td>x !== 5</td>
+<td>false</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>greater than</td>
+<td>x &gt; 8</td>
+<td>false</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>less than</td>
+<td>x &lt; 8</td>
+<td>true</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>greater than or equal to</td>
+<td>x &gt;= 8</td>
+<td>false</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>less than or equal to</td>
+<td>x &lt;= 8</td>
+<td><em>true</em></td>
+</tr>
+</tbody>
+</table>
+</br>
