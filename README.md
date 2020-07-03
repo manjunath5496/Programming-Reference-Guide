@@ -2700,3 +2700,23 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">Tuple Methods</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_tuple_count.asp">count()</a></td>
+<td>Returns the number of times a specified value occurs in a tuple</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_tuple_index.asp">index()</a></td>
+<td>Searches the tuple for a specified value and returns the position of where it was found</td>
+</tr>
+</tbody>
+</table>
+</br>
