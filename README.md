@@ -13,7 +13,7 @@
 <li><a href="#course10">PHP Reference</a></li>
 <li><a href="#course11">JavaScript Reference</a></li>
 <li><a href="#course12">HTML DOM Reference</a></li>
-
+<li><a href="#course13">Web APIs</a></li>
 </ul>
 <p>&nbsp;</p>
 <h2 id="course1">SQL Keywords</h2>
@@ -13001,6 +13001,223 @@
 <tr>
 <td><a href="https://www.w3schools.com/jsref/met_win_stop.asp">stop()</a></td>
 <td>Stops the window from loading</td>
+</tr>
+</tbody>
+</table>
+</br>
+<h2 id="course13">Web APIs</h2>
+<ul>
+<li><strong>Console Object Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_assert.asp">assert()</a></td>
+<td>Writes an error message to the console if the assertion is false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_clear.asp">clear()</a></td>
+<td>Clears the console</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_count.asp">count()</a></td>
+<td>Logs the number of times that this particular call to count() has been called</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_error.asp">error()</a></td>
+<td>Outputs an error message to the console</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_group.asp">group()</a></td>
+<td>Creates a new inline group in the console. This indents following console messages by an additional level, until console.groupEnd() is called</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_groupcollapsed.asp">groupCollapsed()</a></td>
+<td>Creates a new inline group in the console. However, the new group is created collapsed. The user will need to use the disclosure button to expand it</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_groupend.asp">groupEnd()</a></td>
+<td>Exits the current inline group in the console</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_info.asp">info()</a></td>
+<td>Outputs an informational message to the console</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_log.asp">log()</a></td>
+<td>Outputs a message to the console</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_table.asp">table()</a></td>
+<td>Displays tabular data as a table</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_time.asp">time()</a></td>
+<td>Starts a timer (can track how long an operation takes)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_timeend.asp">timeEnd()</a></td>
+<td>Stops a timer that was previously started by console.time()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_trace.asp">trace()</a></td>
+<td>Outputs a stack trace to the console</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_console_warn.asp">warn()</a></td>
+<td>Outputs a warning message to the console</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Geolocation Object Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_geo_coordinates.asp">coordinates</a></td>
+<td>Returns the position and altitude of the device on Earth</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_geo_position.asp">position</a></td>
+<td>Returns the position of the concerned device at a given time</td>
+</tr>
+<tr>
+<td>positionError</td>
+<td>Returns the reason of an error occurring when using the geolocating device</td>
+</tr>
+<tr>
+<td>positionOptions</td>
+<td>Describes an object containing option properties to pass as a parameter of Geolocation.getCurrentPosition() and Geolocation.watchPosition()</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Geolocation Object Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>clearWatch()</td>
+<td>Unregister location/error monitoring handlers previously installed using Geolocation.watchPosition()</td>
+</tr>
+<tr>
+<td>getCurrentPosition()</td>
+<td>Returns the current position of the device</td>
+</tr>
+<tr>
+<td>watchPosition()</td>
+<td>Returns a watch ID value that then can be used to unregister the handler by passing it to the Geolocation.clearWatch() method</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>History Object Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_his_length.asp">length</a></td>
+<td>Returns the number of URLs in the history list</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>History Object Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_his_back.asp">back()</a></td>
+<td>Loads the previous URL in the history list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_his_forward.asp">forward()</a></td>
+<td>Loads the next URL in the history list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_his_go.asp">go()</a></td>
+<td>Loads a specific URL from the history list</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Storage Object Properties and Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property/Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_storage_key.asp">key(<em>n</em>)</a></td>
+<td>Returns the name of the&nbsp;<em>n</em>th key in the storage</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_storage_length.asp">length</a></td>
+<td>Returns the number of data items stored in the Storage object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_storage_getitem.asp">getItem(<em>keyname</em>)</a></td>
+<td>Returns the value of the specified key name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_storage_setitem.asp">setItem(<em>keyname</em>,&nbsp;<em>value</em>)</a></td>
+<td>Adds that key to the storage, or update that key's value if it already exists</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_storage_removeitem.asp">removeItem(<em>keyname</em>)</a></td>
+<td>Removes that key from the storage</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_storage_clear.asp">clear()</a></td>
+<td>Empty all key out of the storage</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Web Storage API</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">window.localStorage</a></td>
+<td>Allows to save key/value pairs in a web browser. Stores the data with no expiration date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_sessionstorage.asp">window.sessionStorage</a></td>
+<td>Allows to save key/value pairs in a web browser. Stores the data for one session</td>
 </tr>
 </tbody>
 </table>
