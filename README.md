@@ -2120,5 +2120,284 @@
 </br>
 
 <h2 id="course7">Python Reference</h2>
-
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">Built in Functions</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_abs.asp">abs()</a></td>
+<td>Returns the absolute value of a number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_all.asp">all()</a></td>
+<td>Returns True if all items in an iterable object are true</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_any.asp">any()</a></td>
+<td>Returns True if any item in an iterable object is true</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_ascii.asp">ascii()</a></td>
+<td>Returns a readable version of an object. Replaces none-ascii characters with escape character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_bin.asp">bin()</a></td>
+<td>Returns the binary version of a number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_bool.asp">bool()</a></td>
+<td>Returns the boolean value of the specified object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_bytearray.asp">bytearray()</a></td>
+<td>Returns an array of bytes</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_bytes.asp">bytes()</a></td>
+<td>Returns a bytes object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_callable.asp">callable()</a></td>
+<td>Returns True if the specified object is callable, otherwise False</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_chr.asp">chr()</a></td>
+<td>Returns a character from the specified Unicode code.</td>
+</tr>
+<tr>
+<td>classmethod()</td>
+<td>Converts a method into a class method</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_compile.asp">compile()</a></td>
+<td>Returns the specified source as an object, ready to be executed</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_complex.asp">complex()</a></td>
+<td>Returns a complex number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_delattr.asp">delattr()</a></td>
+<td>Deletes the specified attribute (property or method) from the specified object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_dict.asp">dict()</a></td>
+<td>Returns a dictionary (Array)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_dir.asp">dir()</a></td>
+<td>Returns a list of the specified object's properties and methods</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_divmod.asp">divmod()</a></td>
+<td>Returns the quotient and the remainder when argument1 is divided by argument2</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_enumerate.asp">enumerate()</a></td>
+<td>Takes a collection (e.g. a tuple) and returns it as an enumerate object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_eval.asp">eval()</a></td>
+<td>Evaluates and executes an expression</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_exec.asp">exec()</a></td>
+<td>Executes the specified code (or object)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_filter.asp">filter()</a></td>
+<td>Use a filter function to exclude items in an iterable object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_float.asp">float()</a></td>
+<td>Returns a floating point number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_format.asp">format()</a></td>
+<td>Formats a specified value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_frozenset.asp">frozenset()</a></td>
+<td>Returns a frozenset object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_getattr.asp">getattr()</a></td>
+<td>Returns the value of the specified attribute (property or method)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_globals.asp">globals()</a></td>
+<td>Returns the current global symbol table as a dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_hasattr.asp">hasattr()</a></td>
+<td>Returns True if the specified object has the specified attribute (property/method)</td>
+</tr>
+<tr>
+<td>hash()</td>
+<td>Returns the hash value of a specified object</td>
+</tr>
+<tr>
+<td>help()</td>
+<td>Executes the built-in help system</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_hex.asp">hex()</a></td>
+<td>Converts a number into a hexadecimal value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_id.asp">id()</a></td>
+<td>Returns the id of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_input.asp">input()</a></td>
+<td>Allowing user input</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_int.asp">int()</a></td>
+<td>Returns an integer number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_isinstance.asp">isinstance()</a></td>
+<td>Returns True if a specified object is an instance of a specified object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_issubclass.asp">issubclass()</a></td>
+<td>Returns True if a specified class is a subclass of a specified object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_iter.asp">iter()</a></td>
+<td>Returns an iterator object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_len.asp">len()</a></td>
+<td>Returns the length of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_list.asp">list()</a></td>
+<td>Returns a list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_locals.asp">locals()</a></td>
+<td>Returns an updated dictionary of the current local symbol table</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_map.asp">map()</a></td>
+<td>Returns the specified iterator with the specified function applied to each item</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_max.asp">max()</a></td>
+<td>Returns the largest item in an iterable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_memoryview.asp">memoryview()</a></td>
+<td>Returns a memory view object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_min.asp">min()</a></td>
+<td>Returns the smallest item in an iterable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_next.asp">next()</a></td>
+<td>Returns the next item in an iterable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_object.asp">object()</a></td>
+<td>Returns a new object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_oct.asp">oct()</a></td>
+<td>Converts a number into an octal</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_open.asp">open()</a></td>
+<td>Opens a file and returns a file object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_ord.asp">ord()</a></td>
+<td>Convert an integer representing the Unicode of the specified character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_pow.asp">pow()</a></td>
+<td>Returns the value of x to the power of y</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_print.asp">print()</a></td>
+<td>Prints to the standard output device</td>
+</tr>
+<tr>
+<td>property()</td>
+<td>Gets, sets, deletes a property</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_range.asp">range()</a></td>
+<td>Returns a sequence of numbers, starting from 0 and increments by 1 (by default)</td>
+</tr>
+<tr>
+<td>repr()</td>
+<td>Returns a readable version of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_reversed.asp">reversed()</a></td>
+<td>Returns a reversed iterator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_round.asp">round()</a></td>
+<td>Rounds a numbers</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_set.asp">set()</a></td>
+<td>Returns a new set object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_setattr.asp">setattr()</a></td>
+<td>Sets an attribute (property/method) of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_slice.asp">slice()</a></td>
+<td>Returns a slice object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_sorted.asp">sorted()</a></td>
+<td>Returns a sorted list</td>
+</tr>
+<tr>
+<td>@staticmethod()</td>
+<td>Converts a method into a static method</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_str.asp">str()</a></td>
+<td>Returns a string object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_sum.asp">sum()</a></td>
+<td>Sums the items of an iterator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_super.asp">super()</a></td>
+<td>Returns an object that represents the parent class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_tuple.asp">tuple()</a></td>
+<td>Returns a tuple</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_type.asp">type()</a></td>
+<td>Returns the type of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_vars.asp">vars()</a></td>
+<td>Returns the __dict__ property of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_func_zip.asp">zip()</a></td>
+<td>Returns an iterator, from two or more iterators</td>
+</tr>
+</tbody>
+</table>
+</br>
 
