@@ -7,7 +7,7 @@
 <li><a href="#course4">List of all Keywords in C++ Language</a></li>
 <li><a href="#course5">CSS Properties</a></li>
 <li><a href="#course6">HTML Element Reference</a></li>
-<li><a href="#course7">Myth, Ritual, and Symbolism</a></li>
+<li><a href="#course7">Python Reference</a></li>
 <li><a href="#course8">Disease and Health: Culture, Society, and Ethics</a></li>
 <li><a href="#course9">Anthropology of War and Peace</a></li>
 <li><a href="#course10">Law and Society</a></li>
@@ -2119,6 +2119,6 @@
 </table>
 </br>
 
-
+<h2 id="course7">Python Reference</h2>
 
 
