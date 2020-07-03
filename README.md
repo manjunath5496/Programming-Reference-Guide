@@ -587,7 +587,7 @@
 </br>
 <h2 id="course3">Keywords in C Programming Language :</h2>
 
-<table class="easy-table easy-table-default " border="1">
+<table>
 <thead>
 <tr>
 <th>auto</th>
