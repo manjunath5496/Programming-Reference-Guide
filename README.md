@@ -9803,3 +9803,226 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>Number Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_constructor_number.asp">constructor</a></td>
+<td>Returns the function that created JavaScript's Number prototype</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_max_value.asp">MAX_VALUE</a></td>
+<td>Returns the largest number possible in JavaScript</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_min_value.asp">MIN_VALUE</a></td>
+<td>Returns the smallest number possible in JavaScript</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_negative_infinity.asp">NEGATIVE_INFINITY</a></td>
+<td>Represents negative infinity (returned on overflow)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_number_nan.asp">NaN</a></td>
+<td>Represents a "Not-a-Number" value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_positive_infinity.asp">POSITIVE_INFINITY</a></td>
+<td>Represents infinity (returned on overflow)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_prototype_num.asp">prototype</a></td>
+<td>Allows you to add properties and methods to an object</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Number Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_isfinite_number.asp">isFinite()</a></td>
+<td>Checks whether a value is a finite number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_isinteger.asp">isInteger()</a></td>
+<td>Checks whether a value is an integer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_isnan_number.asp">isNaN()</a></td>
+<td>Checks whether a value is Number.NaN</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_issafeinteger.asp">isSafeInteger()</a></td>
+<td>Checks whether a value is a safe integer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_toexponential.asp">toExponential(x)</a></td>
+<td>Converts a number into an exponential notation</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tofixed.asp">toFixed(x)</a></td>
+<td>Formats a number with x numbers of digits after the decimal point</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tolocalestring_number.asp">toLocaleString()</a></td>
+<td>Converts a number into a string, based on the locale settings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_toprecision.asp">toPrecision(x)</a></td>
+<td>Formats a number to x length</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tostring_number.asp">toString()</a></td>
+<td>Converts a number to a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_valueof_number.asp">valueOf()</a></td>
+<td>Returns the primitive value of a number</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>JSON Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_parse_json.asp">parse()</a></td>
+<td>Parses a JSON string and returns a JavaScript object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_stringify.asp">stringify()</a></td>
+<td>Convert a JavaScript object to a JSON string</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+<ul>
+<li><strong>JavaScript Global Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_infinity.asp">Infinity</a></td>
+<td>A numeric value that represents positive/negative infinity</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_nan.asp">NaN</a></td>
+<td>"Not-a-Number" value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_undefined.asp">undefined</a></td>
+<td>Indicates that a variable has not been assigned a value</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>JavaScript Global Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_decodeuri.asp">decodeURI()</a></td>
+<td>Decodes a URI</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_decodeuricomponent.asp">decodeURIComponent()</a></td>
+<td>Decodes a URI component</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_encodeuri.asp">encodeURI()</a></td>
+<td>Encodes a URI</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_encodeuricomponent.asp">encodeURIComponent()</a></td>
+<td>Encodes a URI component</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_escape.asp">escape()</a></td>
+<td><span class="deprecated">Deprecated in version 1.5.</span>&nbsp;Use&nbsp;<a href="https://www.w3schools.com/jsref/jsref_encodeuri.asp">encodeURI()</a>&nbsp;or&nbsp;<a href="https://www.w3schools.com/jsref/jsref_encodeuricomponent.asp">encodeURIComponent()</a>&nbsp;instead</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_eval.asp">eval()</a></td>
+<td>Evaluates a string and executes it as if it was script code</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_isfinite.asp">isFinite()</a></td>
+<td>Determines whether a value is a finite, legal number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_isnan.asp">isNaN()</a></td>
+<td>Determines whether a value is an illegal number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_number.asp">Number()</a></td>
+<td>Converts an object's value to a number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_parsefloat.asp">parseFloat()</a></td>
+<td>Parses a string and returns a floating point number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_parseint.asp">parseInt()</a></td>
+<td>Parses a string and returns an integer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_string.asp">String()</a></td>
+<td>Converts an object's value to a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_unescape.asp">unescape()</a></td>
+<td><span class="deprecated">Deprecated in version 1.5.</span>&nbsp;Use&nbsp;<a href="https://www.w3schools.com/jsref/jsref_decodeuri.asp">decodeURI()</a>&nbsp;or&nbsp;<a href="https://www.w3schools.com/jsref/jsref_decodeuricomponent.asp">decodeURIComponent()</a>&nbsp;instead</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Error Object Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_error_name.asp">name</a></td>
+<td>Sets or returns an error name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_error_message.asp">message</a></td>
+<td>Sets or returns an error message (a string)</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+
