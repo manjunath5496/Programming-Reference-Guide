@@ -9628,45 +9628,103 @@
 </tbody>
 </table>
 
-<p><strong>Comparison Operators</strong></p>
+<p><strong>Conditional (Ternary) Operator</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Syntax</th>
+<th>Example</th>
+</tr>
+<tr>
+<td><em>variablename&nbsp;</em>= (<em>condition</em>) ?<em>&nbsp;value1</em>:<em>value2</em></td>
+<td>voteable = (age &lt; 18) ? "Too young":"Old enough";</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Logical Operators</strong></p>
+<p>Given that&nbsp;<strong>x = 6 and y = 3</strong>, the table below explains the logical operators:</p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr style="height: 13px;">
+<th style="height: 13px;">Operator</th>
+<th style="height: 13px;">Description</th>
+<th style="height: 13px;">Example</th>
+</tr>
+<tr style="height: 13px;">
+<td style="height: 13px;">&amp;&amp;</td>
+<td style="height: 13px;">and</td>
+<td style="height: 13px;">(x &lt; 10 &amp;&amp; y &gt; 1) is true</td>
+</tr>
+<tr style="height: 13px;">
+<td style="height: 13px;">||</td>
+<td style="height: 13px;">or</td>
+<td style="height: 13px;">(x === 5 || y === 5) is false</td>
+</tr>
+<tr style="height: 13px;">
+<td style="height: 13px;">!</td>
+<td style="height: 13px;">not</td>
+<td style="height: 13px;">!(x === y) is true</td>
+</tr>
+</tbody>
+</table>
+<p><strong>JavaScript Bitwise Operators</strong></p>
 <table class="w3-table-all notranslate">
 <tbody>
 <tr>
 <th>Operator</th>
 <th>Description</th>
+<th>Example</th>
+<th>Same as</th>
+<th>Result</th>
+<th>Decimal</th>
 </tr>
 <tr>
-<td rowspan="2">==</td>
-<td rowspan="2">equal to</td>
+<td>&amp;</td>
+<td>AND</td>
+<td>x = 5 &amp; 1</td>
+<td>0101 &amp; 0001</td>
+<td>0001</td>
+<td>&nbsp;1</td>
 </tr>
 <tr>
-<td rowspan="2">===</td>
-<td rowspan="2">equal value and equal type</td>
+<td>|</td>
+<td>OR</td>
+<td>x = 5 | 1</td>
+<td>0101 | 0001</td>
+<td>0101</td>
+<td>&nbsp;5</td>
 </tr>
 <tr>
-<td>!=</td>
-<td>not equal</td>
+<td>~</td>
+<td>NOT</td>
+<td>x = ~ 5</td>
+<td>&nbsp;~0101</td>
+<td>1010</td>
+<td>&nbsp;10</td>
 </tr>
 <tr>
-<td rowspan="2">!==</td>
-<td rowspan="2">not equal value or not equal type</td>
+<td>^</td>
+<td>XOR</td>
+<td>x = 5 ^ 1</td>
+<td>0101 ^ 0001</td>
+<td>0100</td>
+<td>&nbsp;4</td>
 </tr>
 <tr>
-<td>&gt;</td>
-<td>greater than</td>
+<td>&lt;&lt;</td>
+<td>Left shift</td>
+<td>x = 5 &lt;&lt; 1</td>
+<td>0101 &lt;&lt; 1</td>
+<td>1010</td>
+<td>&nbsp;10</td>
 </tr>
 <tr>
-<td>&lt;</td>
-<td>less than</td>
-</tr>
-<tr>
-<td>&gt;=</td>
-<td>greater than or equal to</td>
-</tr>
-<tr>
-<td>&lt;=</td>
-<td>less than or equal to</td>
+<td>&gt;&gt;</td>
+<td>Right shift</td>
+<td>x = 5 &gt;&gt; 1</td>
+<td>0101 &gt;&gt; 1</td>
+<td>0010</td>
+<td>&nbsp; 2</td>
 </tr>
 </tbody>
 </table>
-
