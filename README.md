@@ -10025,4 +10025,55 @@
 </table>
 </br>
 <h2 id="course12">HTML DOM Reference</h2>
-
+<ul>
+<li><strong>Attributes</strong> [Properties and Methods]</li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property / Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_attr_isid.asp"><em>attr</em>.isId</a></td>
+<td>Returns true if the attribute is of type Id, otherwise it returns false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_attr_name.asp"><em>attr</em>.name</a></td>
+<td>Returns the name of an attribute</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_attr_value.asp"><em>attr</em>.value</a></td>
+<td>Sets or returns the value of the attribute</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_attr_specified.asp"><em>attr</em>.specified</a></td>
+<td>Returns true if the attribute has been specified, otherwise it returns false</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_namednodemap_getnameditem.asp"><em>nodemap</em>.getNamedItem()</a></td>
+<td>Returns a specified attribute node from a NamedNodeMap</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_namednodemap_item.asp"><em>nodemap</em>.item()</a></td>
+<td>Returns the attribute node at a specified index in a NamedNodeMap</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_namednodemap_length.asp"><em>nodemap</em>.length</a></td>
+<td>Returns the number of attribute nodes in a NamedNodeMap</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_namednodemap_removenameditem.asp"><em>nodemap</em>.removeNamedItem()</a></td>
+<td>Removes a specified attribute node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_namednodemap_setnameditem.asp"><em>nodemap</em>.setNamedItem()</a></td>
+<td>Sets the specified attribute node (by name)</td>
+</tr>
+</tbody>
+</table>
+</br>
