@@ -3966,7 +3966,7 @@
 </table>
 </br>
 <ul>
-<li><strong>Python&nbsp;<span class="color_h1">Requests</span>&nbsp;Module</strong></li>
+<li><strong>Python&nbsp;<span class="color_h1">Requests</span>&nbsp;Module</strong> [Methods]</li>
 </ul>
 <table class="w3-table-all notranslate">
 <tbody>
@@ -4006,7 +4006,7 @@
 </table>
 </br>
 <ul>
-<li><strong>Python&nbsp;<span class="color_h1">math Module</span></strong></li>
+<li><strong>Python&nbsp;<span class="color_h1">math Module</span></strong>[Math Methods]</li>
 </ul>
 <table class="w3-table-all notranslate">
 <tbody>
