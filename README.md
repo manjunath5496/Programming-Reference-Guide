@@ -9505,7 +9505,128 @@
 </table>
 </br>
 
-
+<ul>
+<li><strong>JavaScript&nbsp;<span class="color_h1">Operators Reference</span></strong></li>
+</ul>
+<p><strong>JavaScript Arithmetic Operators</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Operator</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>+</td>
+<td>Addition</td>
+<td>x = y + 2</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Subtraction</td>
+<td>x = y - 2</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Multiplication</td>
+<td>x = y * 2</td>
+</tr>
+<tr>
+<td>/</td>
+<td>Division</td>
+<td>x = y / 2</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Modulus (division remainder)</td>
+<td>x = y % 2</td>
+</tr>
+<tr>
+<td rowspan="2">++</td>
+<td rowspan="2">Increment</td>
+<td>x = ++y</td>
+</tr>
+<tr>
+<td>x = y++</td>
+</tr>
+<tr>
+<td rowspan="2">--</td>
+<td rowspan="2">Decrement</td>
+<td>x = --y</td>
+</tr>
+<tr>
+<td>x = y--</td>
+</tr>
+</tbody>
+</table>
+</br>
+<p><strong>JavaScript Assignment Operators</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Operator</th>
+<th>Example</th>
+<th>Same As</th>
+</tr>
+<tr>
+<td>=</td>
+<td>x = y</td>
+<td>x = y</td>
+</tr>
+<tr>
+<td>+=</td>
+<td>x += y</td>
+<td>x = x + y</td>
+</tr>
+<tr>
+<td>-=</td>
+<td>x -= y</td>
+<td>x = x - y</td>
+</tr>
+<tr>
+<td>*=</td>
+<td>x *= y</td>
+<td>x = x * y</td>
+</tr>
+<tr>
+<td>/=</td>
+<td>x /= y</td>
+<td>x = x / y</td>
+</tr>
+<tr>
+<td>%=</td>
+<td>x %= y</td>
+<td>x = x % y</td>
+</tr>
+</tbody>
+</table>
+</br>
+<p><strong>JavaScript String Operators</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Operator</th>
+<th>Example</th>
+<th>text1</th>
+<th>text2</th>
+<th>text3</th>
+</tr>
+<tr>
+<td>+</td>
+<td>text3 = text1 + text2</td>
+<td>"Good "</td>
+<td>"Morning"</td>
+<td>&nbsp;"Good Morning"</td>
+</tr>
+<tr>
+<td>+=</td>
+<td>text1 += text2</td>
+<td>"Good Morning"</td>
+<td>"Morning"</td>
+<td>""</td>
+</tr>
+</tbody>
+</table>
 
 
 
