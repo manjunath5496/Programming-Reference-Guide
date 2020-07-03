@@ -9,7 +9,7 @@
 <li><a href="#course6">HTML Element Reference</a></li>
 <li><a href="#course7">Python Reference</a></li>
 <li><a href="#course8">Python Glossary</a></li>
-<li><a href="#course9">Anthropology of War and Peace</a></li>
+<li><a href="#course9">Python Module Reference</a></li>
 <li><a href="#course10">Law and Society</a></li>
 <li><a href="#course11">Gender, Sexuality, and Society</a></li>
 <li><a href="#course12">Race and Science</a></li>
@@ -3863,4 +3863,388 @@
 </tbody>
 </table>
 </br>
+<h2 id="course9">Python Module Reference</h2>
+
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">Random Module</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_seed.asp">seed()</a></td>
+<td>Initialize the random number generator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_getstate.asp">getstate()</a></td>
+<td>Returns the current internal state of the random number generator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_setstate.asp">setstate()</a></td>
+<td>Restores the internal state of the random number generator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_getrandbits.asp">getrandbits()</a></td>
+<td>Returns a number representing the random bits</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_randrange.asp">randrange()</a></td>
+<td>Returns a random number between the given range</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_randint.asp">randint()</a></td>
+<td>Returns a random number between the given range</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_choice.asp">choice()</a></td>
+<td>Returns a random element from the given sequence</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_choices.asp">choices()</a></td>
+<td>Returns a list with a random selection from the given sequence</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_shuffle.asp">shuffle()</a></td>
+<td>Takes a sequence and returns the sequence in a random order</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_sample.asp">sample()</a></td>
+<td>Returns a given sample of a sequence</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_random.asp">random()</a></td>
+<td>Returns a random float number between 0 and 1</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_uniform.asp">uniform()</a></td>
+<td>Returns a random float number between two given parameters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_random_triangular.asp">triangular()</a></td>
+<td>Returns a random float number between two given parameters, you can also set a mode parameter to specify the midpoint between the two other parameters</td>
+</tr>
+<tr>
+<td>betavariate()</td>
+<td>Returns a random float number between 0 and 1 based on the Beta distribution (used in statistics)</td>
+</tr>
+<tr>
+<td>expovariate()</td>
+<td>Returns a random float number between 0 and 1, or between 0 and -1 if the parameter is negative, based on the Exponential distribution (used in statistics)</td>
+</tr>
+<tr>
+<td>gammavariate()</td>
+<td>Returns a random float number between 0 and 1 based on the Gamma distribution (used in statistics)</td>
+</tr>
+<tr>
+<td>gauss()</td>
+<td>Returns a random float number between 0 and 1 based on the Gaussian distribution (used in probability theories)</td>
+</tr>
+<tr>
+<td>lognormvariate()</td>
+<td>Returns a random float number between 0 and 1 based on a log-normal distribution (used in probability theories)</td>
+</tr>
+<tr>
+<td>normalvariate()</td>
+<td>Returns a random float number between 0 and 1 based on the normal distribution (used in probability theories)</td>
+</tr>
+<tr>
+<td>vonmisesvariate()</td>
+<td>Returns a random float number between 0 and 1 based on the von Mises distribution (used in directional statistics)</td>
+</tr>
+<tr>
+<td>paretovariate()</td>
+<td>Returns a random float number between 0 and 1 based on the Pareto distribution (used in probability theories)</td>
+</tr>
+<tr>
+<td>weibullvariate()</td>
+<td>Returns a random float number between 0 and 1 based on the Weibull distribution (used in statistics)</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">Requests</span>&nbsp;Module</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_requests_delete.asp">delete(<em>url</em>,&nbsp;<em>args</em>)</a></td>
+<td>Sends a DELETE request to the specified url</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_requests_get.asp">get(<em>url</em>,&nbsp;<em>params, args</em>)</a></td>
+<td>Sends a GET request to the specified url</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_requests_head.asp">head(<em>url</em>,&nbsp;<em>args</em>)</a></td>
+<td>Sends a HEAD request to the specified url</td>
+</tr>
+<tr>
+<td>patch(<em>url</em>,&nbsp;<em>data, args</em>)</td>
+<td>Sends a PATCH request to the specified url</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_requests_post.asp">post(<em>url</em>,&nbsp;<em>data, json, args</em>)</a></td>
+<td>Sends a POST request to the specified url</td>
+</tr>
+<tr>
+<td>put(<em>url</em>,&nbsp;<em>data, args</em>)</td>
+<td>Sends a PUT request to the specified url</td>
+</tr>
+<tr>
+<td>request(<em>method</em>,&nbsp;<em>url</em>,&nbsp;<em>args</em>)</td>
+<td>Sends a request of the specified method to the specified url</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">math Module</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_acos.asp">math.acos(x)</a></td>
+<td>Returns the arc cosine value of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_acosh.asp">math.acosh(x)</a></td>
+<td>Returns the hyperbolic arc cosine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_asin.asp">math.asin(x)</a></td>
+<td>Returns the arc sine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_asinh.asp">math.asinh(x)</a></td>
+<td>Returns the hyperbolic arc sine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_atan.asp">math.atan(x)</a></td>
+<td>Returns the arc tangent value of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_atan2.asp">math.atan2(y, x)</a></td>
+<td>Returns the arc tangent of y/x in radians</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_atanh.asp">math.atanh(x)</a></td>
+<td>Returns the hyperbolic arctangent value of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_ceil.asp">math.ceil(x)</a></td>
+<td>Rounds a number upwards to the nearest integer, and returns the result</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_comb.asp">math.comb(n, k)</a></td>
+<td>Returns the number of ways to choose k items from n items without repetition and order</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_copysign.asp">math.copysign(x, y)</a></td>
+<td>Returns a float consisting of the value of the first parameter and the sign of the second parameter</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_cos.asp">math.cos(x)</a></td>
+<td>Returns the cosine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_cosh.asp">math.cosh(x)</a></td>
+<td>Returns the hyperbolic cosine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_degrees.asp">math.degrees(x)</a></td>
+<td>Converts an angle from radians to degrees</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_dist.asp">math.dist(p, q)</a></td>
+<td>Calculates the euclidean distance between two specified points (p and q), where p and q are the coordinates of that point</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_erf.asp">math.erf(x)</a></td>
+<td>Returns the error function of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_erfc.asp">math.erfc(x)</a></td>
+<td>Returns the complementary error function of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_exp.asp">math.exp(x)</a></td>
+<td>Returns the value of E<sup>x</sup>, where E is Euler's number (approximately 2.718281...), and x is the number passed to it</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_expm1.asp">math.expm1(x)</a></td>
+<td>Returns the value of E<sup>x</sup>&nbsp;- 1, where E is Euler's number (approximately 2.718281...), and x is the number passed to it</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_fabs.asp">math.fabs(x)</a></td>
+<td>Returns the absolute value of a number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_factorial.asp">math.factorial()</a></td>
+<td>Returns the factorial of a number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_floor.asp">math.floor(x)</a></td>
+<td>Rounds a number downwards to the nearest integer, and returns the result</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_fmod.asp">math.fmod(x, y)</a></td>
+<td>Returns the remainder of specified numbers when a number is divided by another number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_frexp.asp">math.frexp()</a></td>
+<td>Returns the mantissa and the exponent, of a specified value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_fsum.asp">math.fsum(iterable)</a></td>
+<td>Returns the sum of all items in an iterable (tuples, arrays, lists, etc.)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_gamma.asp">math.gamma(x)</a></td>
+<td>Returns the gamma value of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_gcd.asp">math.gcd()</a></td>
+<td>Returns the highest value that can divide two integers</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_hypot.asp">math.hypot()</a></td>
+<td>Find the Euclidean distance from the origin for&nbsp;<em>n</em>&nbsp;inputs</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_isclose.asp">math.isclose()</a></td>
+<td>Checks whether two values are close, or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_isfinite.asp">math.isfinite(x)</a></td>
+<td>Checks whether x is a finite number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_isinf.asp">math.isinf(x)</a></td>
+<td>Check whether x is a positive or negative infinty</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_isnan.asp">math.isnan(x)</a></td>
+<td>Checks whether x is NaN (not a number)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_isqrt.asp">math.isqrt(n)</a></td>
+<td>Returns the nearest integer square root of n</td>
+</tr>
+<tr>
+<td>math.ldexp(x, i)</td>
+<td>Returns the expression x * 2i where x is mantissa and i is an exponent</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_lgamma.asp">math.lgamma(x)</a></td>
+<td>Returns the log gamma value of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_log.asp">math.log(x, base)</a></td>
+<td>Returns the natural logarithm of a number, or the logarithm of number to base</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_log10.asp">math.log10(x)</a></td>
+<td>Returns the base-10 logarithm of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_log1p.asp">math.log1p(x)</a></td>
+<td>Returns the natural logarithm of 1+x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_log2.asp">math.log2(x)</a></td>
+<td>Returns the base-2 logarithm of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_perm.asp">math.perm(n, k)</a></td>
+<td>Returns the number of ways to choose k items from n items with order and without repetition</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_pow.asp">math.pow(x, y)</a></td>
+<td>Returns the value of x to the power of y</td>
+</tr>
+<tr>
+<td>math.prod(iterable, *, start=1)</td>
+<td>Returns the product of an iterable (lists, array, tuples, etc.)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_radians.asp">math.radians(x)</a></td>
+<td>Converts a degree value (x) to radians</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_remainder.asp">math.remainder(x, y)</a></td>
+<td>Returns the closest value that can make numerator completely divisible by the denominator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_sin.asp">math.sin(x)</a></td>
+<td>Returns the sine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_sinh.asp">math.sinh(x)</a></td>
+<td>Returns the hyperbolic sine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_sqrt.asp">math.sqrt(x)</a></td>
+<td>Returns the square root of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_tan.asp">math.tan(x)</a></td>
+<td>Returns the tangent of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_tanh.asp">math.tanh(x)</a></td>
+<td>Returns the hyperbolic tangent of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_trunc.asp">math.trunc(x)</a></td>
+<td>Returns the truncated integer parts of x</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Math Constants</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Constant</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_e.asp">math.e</a></td>
+<td>Returns Euler's number (2.7182...)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_inf.asp">math.inf</a></td>
+<td>Returns a floating-point positive infinity</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_nan.asp">math.nan</a></td>
+<td>Returns a floating-point NaN (Not a Number) value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_pi.asp">math.pi</a></td>
+<td>Returns PI (3.1415...)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_math_tau.asp">math.tau</a></td>
+<td>Returns tau (6.2831...)</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+
 
