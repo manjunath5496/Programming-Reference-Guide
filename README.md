@@ -11707,3 +11707,112 @@
 </tbody>
 </table>
 </br>
+
+<ul>
+<li><strong>Navigator Object Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_appcodename.asp">appCodeName</a></td>
+<td>Returns the code name of the browser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_appname.asp">appName</a></td>
+<td>Returns the name of the browser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_appversion.asp">appVersion</a></td>
+<td>Returns the version information of the browser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_cookieenabled.asp">cookieEnabled</a></td>
+<td>Determines whether cookies are enabled in the browser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_geolocation.asp">geolocation</a></td>
+<td>Returns a Geolocation object that can be used to locate the user's position</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_language.asp">language</a></td>
+<td>Returns the language of the browser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_online.asp">onLine</a></td>
+<td>Determines whether the browser is online</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_platform.asp">platform</a></td>
+<td>Returns for which platform the browser is compiled</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_product.asp">product</a></td>
+<td>Returns the engine name of the browser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_nav_useragent.asp">userAgent</a></td>
+<td>Returns the user-agent header sent by the browser to the server</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Navigator Object Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th align="left">Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_nav_javaenabled.asp">javaEnabled()</a></td>
+<td>Specifies whether or not the browser has Java enabled</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_nav_taintenabled.asp">taintEnabled()</a></td>
+<td><span class="deprecated">Removed in JavaScript version 1.2.</span>&nbsp;Specifies whether the browser has data tainting enabled</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Screen Object Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_screen_availheight.asp">availHeight</a></td>
+<td>Returns the height of the screen (excluding the Windows Taskbar)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_screen_availwidth.asp">availWidth</a></td>
+<td>Returns the width of the screen (excluding the Windows Taskbar)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_screen_colordepth.asp">colorDepth</a></td>
+<td>Returns the bit depth of the color palette for displaying images</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_screen_height.asp">height</a></td>
+<td>Returns the total height of the screen</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_screen_pixeldepth.asp">pixelDepth</a></td>
+<td>Returns the color resolution (in bits per pixel) of the screen</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_screen_width.asp">width</a></td>
+<td>Returns the total width of the screen</td>
+</tr>
+</tbody>
+</table>
+</br>
