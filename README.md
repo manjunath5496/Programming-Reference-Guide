@@ -2,7 +2,7 @@
 
 <ul>
 <li><a href="#course1">SQL Keywords</a></li>
-<li><a href="#course2">Identity and Difference</a></li>
+<li><a href="#course2">List of Java keywords</a></li>
 <li><a href="#course3">Ethnic and National Identity</a></li>
 <li><a href="#course4">Memory, Culture, Forgetting</a></li>
 <li><a href="#course5">Seminar in Ethnography and Fieldwork</a></li>
@@ -354,3 +354,11 @@
 </tbody>
 </table>
 </br>
+<h2 id="course2">List of Java keywords</h2>
+
+
+
+
+
+
+
