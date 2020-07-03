@@ -12754,3 +12754,255 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>Window Object Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_closed.asp">closed</a></td>
+<td>Returns a Boolean value indicating whether a window has been closed or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_console.asp">console</a></td>
+<td>Returns a reference to the Console object, which provides methods for logging information to the browser's console (<a href="https://www.w3schools.com/jsref/obj_console.asp">See Console object</a>)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_defaultstatus.asp">defaultStatus</a></td>
+<td>Sets or returns the default text in the statusbar of a window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/dom_obj_document.asp">document</a></td>
+<td>Returns the Document object for the window (<a href="https://www.w3schools.com/jsref/dom_obj_document.asp">See Document object</a>)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_frameElement.asp">frameElement</a></td>
+<td>Returns the &lt;iframe&gt; element in which the current window is inserted</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_frames.asp">frames</a></td>
+<td>Returns all &lt;iframe&gt; elements in the current window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_history.asp">history</a></td>
+<td>Returns the History object for the window (<a href="https://www.w3schools.com/jsref/obj_history.asp">See History object</a>)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_innerheight.asp">innerHeight</a></td>
+<td>Returns the height of the window's content area (viewport) including scrollbars</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_innerheight.asp">innerWidth</a></td>
+<td>Returns the width of a window's content area (viewport) including scrollbars</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_length.asp">length</a></td>
+<td>Returns the number of &lt;iframe&gt; elements in the current window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">localStorage</a></td>
+<td>Allows to save key/value pairs in a web browser. Stores the data with no expiration date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_location.asp">location</a></td>
+<td>Returns the Location object for the window (<a href="https://www.w3schools.com/jsref/obj_location.asp">See Location object</a>)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_name.asp">name</a></td>
+<td>Sets or returns the name of a window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_navigator.asp">navigator</a></td>
+<td>Returns the Navigator object for the window (<a href="https://www.w3schools.com/jsref/obj_navigator.asp">See Navigator object</a>)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_opener.asp">opener</a></td>
+<td>Returns a reference to the window that created the window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_outerheight.asp">outerHeight</a></td>
+<td>Returns the height of the browser window, including toolbars/scrollbars</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_outerheight.asp">outerWidth</a></td>
+<td>Returns the width of the browser window, including toolbars/scrollbars</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_pagexoffset.asp">pageXOffset</a></td>
+<td>Returns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_pagexoffset.asp">pageYOffset</a></td>
+<td>Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_parent.asp">parent</a></td>
+<td>Returns the parent window of the current window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_screen.asp">screen</a></td>
+<td>Returns the Screen object for the window&nbsp;<a href="https://www.w3schools.com/jsref/obj_screen.asp">(See Screen object)</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_screenleft.asp">screenLeft</a></td>
+<td>Returns the horizontal coordinate of the window relative to the screen</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_screenleft.asp">screenTop</a></td>
+<td>Returns the vertical coordinate of the window relative to the screen</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_screenx.asp">screenX</a></td>
+<td>Returns the horizontal coordinate of the window relative to the screen</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_screenx.asp">screenY</a></td>
+<td>Returns the vertical coordinate of the window relative to the screen</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_sessionstorage.asp">sessionStorage</a></td>
+<td>Allows to save key/value pairs in a web browser. Stores the data for one session</td>
+</tr>
+<tr>
+<td>scrollX</td>
+<td>An alias of&nbsp;<a href="https://www.w3schools.com/jsref/prop_win_pagexoffset.asp">pageXOffset</a></td>
+</tr>
+<tr>
+<td>scrollY</td>
+<td>An alias of&nbsp;<a href="https://www.w3schools.com/jsref/prop_win_pagexoffset.asp">pageYOffset</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_self.asp">self</a></td>
+<td>Returns the current window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_status.asp">status</a></td>
+<td>Sets or returns the text in the statusbar of a window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_win_top.asp">top</a></td>
+<td>Returns the topmost browser window</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0__container__"><strong>Window Object Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_alert.asp">alert()</a></td>
+<td>Displays an alert box with a message and an OK button</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_atob.asp">atob()</a></td>
+<td>Decodes a base-64 encoded string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_blur.asp">blur()</a></td>
+<td>Removes focus from the current window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_btoa.asp">btoa()</a></td>
+<td>Encodes a string in base-64</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_clearinterval.asp">clearInterval()</a></td>
+<td>Clears a timer set with setInterval()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_cleartimeout.asp">clearTimeout()</a></td>
+<td>Clears a timer set with setTimeout()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_close.asp">close()</a></td>
+<td>Closes the current window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_confirm.asp">confirm()</a></td>
+<td>Displays a dialog box with a message and an OK and a Cancel button</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_focus.asp">focus()</a></td>
+<td>Sets focus to the current window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp">getComputedStyle()</a></td>
+<td>Gets the current computed CSS styles applied to an element</td>
+</tr>
+<tr>
+<td>getSelection()</td>
+<td>Returns a Selection object representing the range of text selected by the user</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_matchmedia.asp">matchMedia()</a></td>
+<td>Returns a MediaQueryList object representing the specified CSS media query string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_moveby.asp">moveBy()</a></td>
+<td>Moves a window relative to its current position</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_moveto.asp">moveTo()</a></td>
+<td>Moves a window to the specified position</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_open.asp">open()</a></td>
+<td>Opens a new browser window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_print.asp">print()</a></td>
+<td>Prints the content of the current window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_prompt.asp">prompt()</a></td>
+<td>Displays a dialog box that prompts the visitor for input</td>
+</tr>
+<tr>
+<td>requestAnimationFrame()</td>
+<td>Requests the browser to call a function to update an animation before the next repaint</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_resizeby.asp">resizeBy()</a></td>
+<td>Resizes the window by the specified pixels</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_resizeto.asp">resizeTo()</a></td>
+<td>Resizes the window to the specified width and height</td>
+</tr>
+<tr>
+<td>scroll()</td>
+<td><span class="deprecated">Deprecated.</span>&nbsp;This method has been replaced by the&nbsp;<a href="https://www.w3schools.com/jsref/met_win_scrollto.asp">scrollTo()</a>&nbsp;method.</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_scrollby.asp">scrollBy()</a></td>
+<td>Scrolls the document by the specified number of pixels</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_scrollto.asp">scrollTo()</a></td>
+<td>Scrolls the document to the specified coordinates</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_setinterval.asp">setInterval()</a></td>
+<td>Calls a function or evaluates an expression at specified intervals (in milliseconds)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_settimeout.asp">setTimeout()</a></td>
+<td>Calls a function or evaluates an expression after a specified number of milliseconds</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_win_stop.asp">stop()</a></td>
+<td>Stops the window from loading</td>
+</tr>
+</tbody>
+</table>
+</br>
