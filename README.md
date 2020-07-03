@@ -12769,7 +12769,7 @@
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/obj_console.asp">console</a></td>
-<td>Returns a reference to the Console object, which provides methods for logging information to the browser's console (<a href="https://www.w3schools.com/jsref/obj_console.asp">See Console object</a>)</td>
+<td>Returns a reference to the Console object, which provides methods for logging information to the browser's console&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/prop_win_defaultstatus.asp">defaultStatus</a></td>
@@ -12777,7 +12777,7 @@
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/dom_obj_document.asp">document</a></td>
-<td>Returns the Document object for the window (<a href="https://www.w3schools.com/jsref/dom_obj_document.asp">See Document object</a>)</td>
+<td>Returns the Document object for the window&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/prop_win_frameElement.asp">frameElement</a></td>
@@ -12789,7 +12789,7 @@
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/obj_history.asp">history</a></td>
-<td>Returns the History object for the window (<a href="https://www.w3schools.com/jsref/obj_history.asp">See History object</a>)</td>
+<td>Returns the History object for the window&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/prop_win_innerheight.asp">innerHeight</a></td>
@@ -12809,7 +12809,7 @@
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/obj_location.asp">location</a></td>
-<td>Returns the Location object for the window (<a href="https://www.w3schools.com/jsref/obj_location.asp">See Location object</a>)</td>
+<td>Returns the Location object for the window&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/prop_win_name.asp">name</a></td>
@@ -12817,7 +12817,7 @@
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/obj_navigator.asp">navigator</a></td>
-<td>Returns the Navigator object for the window (<a href="https://www.w3schools.com/jsref/obj_navigator.asp">See Navigator object</a>)</td>
+<td>Returns the Navigator object for the window&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/prop_win_opener.asp">opener</a></td>
@@ -12845,7 +12845,7 @@
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/obj_screen.asp">screen</a></td>
-<td>Returns the Screen object for the window&nbsp;<a href="https://www.w3schools.com/jsref/obj_screen.asp">(See Screen object)</a></td>
+<td>Returns the Screen object for the window</td>
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/jsref/prop_win_screenleft.asp">screenLeft</a></td>
@@ -12889,7 +12889,6 @@
 </tr>
 </tbody>
 </table>
-</br>
 <ul>
 <li id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0__container__"><strong>Window Object Methods</strong></li>
 </ul>
