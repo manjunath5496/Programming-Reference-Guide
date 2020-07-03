@@ -10077,3 +10077,607 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>Document Object Properties and Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property / Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_activeelement.asp">activeElement</a></td>
+<td>Returns the currently focused element in the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_addeventlistener.asp">addEventListener()</a></td>
+<td>Attaches an event handler to the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_adoptnode.asp">adoptNode()</a></td>
+<td>Adopts a node from another document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/coll_doc_anchors.asp">anchors</a></td>
+<td>Returns a collection of all &lt;a&gt; elements in the document that have a name attribute</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/coll_doc_applets.asp">applets</a></td>
+<td>Returns a collection of all &lt;applet&gt; elements in the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_baseuri.asp">baseURI</a></td>
+<td>Returns the absolute base URI of a document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_body.asp">body</a></td>
+<td>Sets or returns the document's body (the &lt;body&gt; element)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_doc_close.asp">close()</a></td>
+<td>Closes the output stream previously opened with document.open()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_cookie.asp">cookie</a></td>
+<td>Returns all name/value pairs of cookies in the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_characterset.asp">charset</a></td>
+<td><span class="deprecated">Deprecated.</span>&nbsp;Use&nbsp;<a href="https://www.w3schools.com/jsref/prop_document_characterset.asp">characterSet</a>&nbsp;instead. Returns the character encoding for the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_characterset.asp">characterSet</a></td>
+<td>Returns the character encoding for the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_createattribute.asp">createAttribute()</a></td>
+<td>Creates an attribute node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_createcomment.asp">createComment()</a></td>
+<td>Creates a Comment node with the specified text</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_createdocumentfragment.asp">createDocumentFragment()</a></td>
+<td>Creates an empty DocumentFragment node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_createelement.asp">createElement()</a></td>
+<td>Creates an Element node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/event_createevent.asp">createEvent()</a></td>
+<td>Creates a new event</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_createtextnode.asp">createTextNode()</a></td>
+<td>Creates a Text node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_defaultview.asp">defaultView</a></td>
+<td>Returns the window object associated with a document, or null if none is available.</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_designmode.asp">designMode</a></td>
+<td>Controls whether the entire document should be editable or not.</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_doctype.asp">doctype</a></td>
+<td>Returns the Document Type Declaration associated with the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_documentelement.asp">documentElement</a></td>
+<td>Returns the Document Element of the document (the &lt;html&gt; element)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_documentmode.asp">documentMode</a></td>
+<td>Returns the mode used by the browser to render the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_documenturi.asp">documentURI</a></td>
+<td>Sets or returns the location of the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_domain.asp">domain</a></td>
+<td>Returns the domain name of the server that loaded the document</td>
+</tr>
+<tr>
+<td>domConfig</td>
+<td><span class="deprecated">Obsolete.</span>&nbsp;Returns the DOM configuration of the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/coll_doc_embeds.asp">embeds</a></td>
+<td>Returns a collection of all &lt;embed&gt; elements the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_execcommand.asp">execCommand()</a></td>
+<td>Invokes the specified clipboard operation on the element currently having focus.</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/coll_doc_forms.asp">forms</a></td>
+<td>Returns a collection of all &lt;form&gt; elements in the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_fullscreenelement.asp">fullscreenElement</a></td>
+<td>Returns the current element that is displayed in fullscreen mode</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_fullscreenenabled.asp">fullscreenEnabled()</a></td>
+<td>Returns a Boolean value indicating whether the document can be viewed in fullscreen mode</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp">getElementById()</a></td>
+<td>Returns the element that has the ID attribute with the specified value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp">getElementsByClassName()</a></td>
+<td>Returns a HTMLCollection containing all elements with the specified class name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_doc_getelementsbyname.asp">getElementsByName()</a></td>
+<td>Returns a HTMLCollection containing all elements with a specified name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp">getElementsByTagName()</a></td>
+<td>Returns a HTMLCollection containing all elements with the specified tag name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_hasfocus.asp">hasFocus()</a></td>
+<td>Returns a Boolean value indicating whether the document has focus</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_head.asp">head</a></td>
+<td>Returns the &lt;head&gt; element of the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/coll_doc_images.asp">images</a></td>
+<td>Returns a collection of all &lt;img&gt; elements in the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_implementation.asp">implementation</a></td>
+<td>Returns the DOMImplementation object that handles this document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_importnode.asp">importNode()</a></td>
+<td>Imports a node from another document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_inputencoding.asp">inputEncoding</a></td>
+<td>Returns the encoding, character set, used for the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_lastmodified.asp">lastModified</a></td>
+<td>Returns the date and time the document was last modified</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/coll_doc_links.asp">links</a></td>
+<td>Returns a collection of all &lt;a&gt; and &lt;area&gt; elements in the document that have a href attribute</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_normalize.asp">normalize()</a></td>
+<td>Removes empty Text nodes, and joins adjacent nodes</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_normalizedocument.asp">normalizeDocument()</a></td>
+<td>Removes empty Text nodes, and joins adjacent nodes</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_doc_open.asp">open()</a></td>
+<td>Opens an HTML output stream to collect output from document.write()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_queryselector.asp">querySelector()</a></td>
+<td>Returns the first element that matches a specified CSS selector(s) in the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_queryselectorall.asp">querySelectorAll()</a></td>
+<td>Returns a static NodeList containing all elements that matches a specified CSS selector(s) in the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_readystate.asp">readyState</a></td>
+<td>Returns the (loading) status of the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_referrer.asp">referrer</a></td>
+<td>Returns the URL of the document that loaded the current document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_removeeventlistener.asp">removeEventListener()</a></td>
+<td>Removes an event handler from the document (that has been attached with the&nbsp;<a href="https://www.w3schools.com/jsref/met_document_addeventlistener.asp">addEventListener()</a>&nbsp;method)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_document_renamenode.asp">renameNode()</a></td>
+<td>Renames the specified node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/coll_doc_scripts.asp">scripts</a></td>
+<td>Returns a collection of &lt;script&gt; elements in the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_document_stricterrorchecking.asp">strictErrorChecking</a></td>
+<td>Sets or returns whether error-checking is enforced or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_title.asp">title</a></td>
+<td>Sets or returns the title of the document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_doc_url.asp">URL</a></td>
+<td>Returns the full URL of the HTML document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_doc_write.asp">write()</a></td>
+<td>Writes HTML expressions or JavaScript code to a document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_doc_writeln.asp">writeln()</a></td>
+<td>Same as write(), but adds a newline character after each statement</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Element</strong> [Properties and Methods]</li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property / Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_accesskey.asp">accessKey</a></td>
+<td>Sets or returns the accesskey attribute of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_addeventlistener.asp">addEventListener()</a></td>
+<td>Attaches an event handler to the specified element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_appendchild.asp">appendChild()</a></td>
+<td>Adds a new child node, to an element, as the last child node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_attributes.asp">attributes</a></td>
+<td>Returns a NamedNodeMap of an element's attributes</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_html_blur.asp">blur()</a></td>
+<td>Removes focus from an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_childelementcount.asp">childElementCount</a></td>
+<td>Returns the number of child elements an element has</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_childnodes.asp">childNodes</a></td>
+<td>Returns a collection of an element's child nodes (including text and comment nodes)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_children.asp">children</a></td>
+<td>Returns a collection of an element's child element (excluding text and comment nodes)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_classlist.asp">classList</a></td>
+<td>Returns the class name(s) of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_classname.asp">className</a></td>
+<td>Sets or returns the value of the class attribute of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_html_click.asp">click()</a></td>
+<td>Simulates a mouse-click on an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_clientheight.asp">clientHeight</a></td>
+<td>Returns the height of an element, including padding</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_clientleft.asp">clientLeft</a></td>
+<td>Returns the width of the left border of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_clienttop.asp">clientTop</a></td>
+<td>Returns the width of the top border of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_clientwidth.asp">clientWidth</a></td>
+<td>Returns the width of an element, including padding</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_clonenode.asp">cloneNode()</a></td>
+<td>Clones an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_comparedocumentposition.asp">compareDocumentPosition()</a></td>
+<td>Compares the document position of two elements</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_contains.asp">contains()</a></td>
+<td>Returns true if a node is a descendant of a node, otherwise false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_contenteditable.asp">contentEditable</a></td>
+<td>Sets or returns whether the content of an element is editable or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_dir.asp">dir</a></td>
+<td>Sets or returns the value of the dir attribute of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_exitfullscreen.asp">exitFullscreen()</a></td>
+<td>Cancels an element in fullscreen mode</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">firstChild</a></td>
+<td>Returns the first child node of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_firstelementchild.asp">firstElementChild</a></td>
+<td>Returns the first child element of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_html_focus.asp">focus()</a></td>
+<td>Gives focus to an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_getattribute.asp">getAttribute()</a></td>
+<td>Returns the specified attribute value of an element node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_getattributenode.asp">getAttributeNode()</a></td>
+<td>Returns the specified attribute node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_getboundingclientrect.asp">getBoundingClientRect()</a></td>
+<td>Returns the size of an element and its position relative to the viewport</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_getelementsbyclassname.asp">getElementsByClassName()</a></td>
+<td>Returns a collection of all child elements with the specified class name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_getelementsbytagname.asp">getElementsByTagName()</a></td>
+<td>Returns a collection of all child elements with the specified tag name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_hasattribute.asp">hasAttribute()</a></td>
+<td>Returns true if an element has the specified attribute, otherwise false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_hasattributes.asp">hasAttributes()</a></td>
+<td>Returns true if an element has any attributes, otherwise false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_haschildnodes.asp">hasChildNodes()</a></td>
+<td>Returns true if an element has any child nodes, otherwise false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_id.asp">id</a></td>
+<td>Sets or returns the value of the id attribute of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_innerhtml.asp">innerHTML</a></td>
+<td>Sets or returns the content of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_innertext.asp">innerText</a></td>
+<td>Sets or returns the text content of a node and its descendants</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_insertadjacentelement.asp">insertAdjacentElement()</a></td>
+<td>Inserts a HTML element at the specified position relative to the current element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_insertadjacenthtml.asp">insertAdjacentHTML()</a></td>
+<td>Inserts a HTML formatted text at the specified position relative to the current element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_insertadjacenttext.asp">insertAdjacentText()</a></td>
+<td>Inserts text into the specified position relative to the current element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_insertbefore.asp">insertBefore()</a></td>
+<td>Inserts a new child node before a specified, existing, child node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_iscontenteditable.asp">isContentEditable</a></td>
+<td>Returns true if the content of an element is editable, otherwise false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_isdefaultnamespace.asp">isDefaultNamespace()</a></td>
+<td>Returns true if a specified namespaceURI is the default, otherwise false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_isequalnode.asp">isEqualNode()</a></td>
+<td>Checks if two elements are equal</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_issamenode.asp">isSameNode()</a></td>
+<td>Checks if two elements are the same node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_issupported.asp">isSupported()</a></td>
+<td>Returns true if a specified feature is supported on the element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_lang.asp">lang</a></td>
+<td>Sets or returns the value of the lang attribute of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_lastchild.asp">lastChild</a></td>
+<td>Returns the last child node of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_lastelementchild.asp">lastElementChild</a></td>
+<td>Returns the last child element of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_namespaceuri.asp">namespaceURI</a></td>
+<td>Returns the namespace URI of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_nextsibling.asp">nextSibling</a></td>
+<td>Returns the next node at the same node tree level</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_nextelementsibling.asp">nextElementSibling</a></td>
+<td>Returns the next element at the same node tree level</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_nodename.asp">nodeName</a></td>
+<td>Returns the name of a node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_nodetype.asp">nodeType</a></td>
+<td>Returns the node type of a node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_nodevalue.asp">nodeValue</a></td>
+<td>Sets or returns the value of a node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_normalize.asp">normalize()</a></td>
+<td>Joins adjacent text nodes and removes empty text nodes in an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_offsetheight.asp">offsetHeight</a></td>
+<td>Returns the height of an element, including padding, border and scrollbar</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_offsetwidth.asp">offsetWidth</a></td>
+<td>Returns the width of an element, including padding, border and scrollbar</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_offsetleft.asp">offsetLeft</a></td>
+<td>Returns the horizontal offset position of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_offsetparent.asp">offsetParent</a></td>
+<td>Returns the offset container of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_offsettop.asp">offsetTop</a></td>
+<td>Returns the vertical offset position of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_outerhtml.asp">outerHTML</a></td>
+<td>Sets or returns the content of an element (including the start tag and the end tag)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_outertext.asp">outerText</a></td>
+<td>Sets or returns the outer text content of a node and its descendants</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_ownerdocument.asp">ownerDocument</a></td>
+<td>Returns the root element (document object) for an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_parentnode.asp">parentNode</a></td>
+<td>Returns the parent node of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_parentelement.asp">parentElement</a></td>
+<td>Returns the parent element node of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_previoussibling.asp">previousSibling</a></td>
+<td>Returns the previous node at the same node tree level</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_previouselementsibling.asp">previousElementSibling</a></td>
+<td>Returns the previous element at the same node tree level</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_queryselector.asp">querySelector()</a></td>
+<td>Returns the first child element that matches a specified CSS selector(s) of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_queryselectorall.asp">querySelectorAll()</a></td>
+<td>Returns all child elements that matches a specified CSS selector(s) of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_remove.asp">remove()</a></td>
+<td>Removes the element from the DOM</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_removeattribute.asp">removeAttribute()</a></td>
+<td>Removes a specified attribute from an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_removeattributenode.asp">removeAttributeNode()</a></td>
+<td>Removes a specified attribute node, and returns the removed node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_removechild.asp">removeChild()</a></td>
+<td>Removes a child node from an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_removeeventlistener.asp">removeEventListener()</a></td>
+<td>Removes an event handler that has been attached with the addEventListener() method</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_node_replacechild.asp">replaceChild()</a></td>
+<td>Replaces a child node in an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_requestfullscreen.asp">requestFullscreen()</a></td>
+<td>Shows an element in fullscreen mode</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_scrollheight.asp">scrollHeight</a></td>
+<td>Returns the entire height of an element, including padding</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_scrollintoview.asp">scrollIntoView()</a></td>
+<td>Scrolls the specified element into the visible area of the browser window</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_scrollleft.asp">scrollLeft</a></td>
+<td>Sets or returns the number of pixels an element's content is scrolled horizontally</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_scrolltop.asp">scrollTop</a></td>
+<td>Sets or returns the number of pixels an element's content is scrolled vertically</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_scrollwidth.asp">scrollWidth</a></td>
+<td>Returns the entire width of an element, including padding</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_setattribute.asp">setAttribute()</a></td>
+<td>Sets or changes the specified attribute, to the specified value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_element_setattributenode.asp">setAttributeNode()</a></td>
+<td>Sets or changes the specified attribute node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_style.asp">style</a></td>
+<td>Sets or returns the value of the style attribute of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_tabindex.asp">tabIndex</a></td>
+<td>Sets or returns the value of the tabindex attribute of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_element_tagname.asp">tagName</a></td>
+<td>Returns the tag name of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_node_textcontent.asp">textContent</a></td>
+<td>Sets or returns the textual content of a node and its descendants</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_html_title.asp">title</a></td>
+<td>Sets or returns the value of the title attribute of an element</td>
+</tr>
+<tr>
+<td>toString()</td>
+<td>Converts an element to a string</td>
+</tr>
+</tbody>
+</table>
+</br>
