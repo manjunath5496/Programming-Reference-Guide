@@ -4,7 +4,7 @@
 <li><a href="#course1">SQL Keywords</a></li>
 <li><a href="#course2">List of Java keywords</a></li>
 <li><a href="#course3">Keywords in C Programming Language</a></li>
-<li><a href="#course4">Memory, Culture, Forgetting</a></li>
+<li><a href="#course4">List of all Keywords in C++ Language</a></li>
 <li><a href="#course5">Seminar in Ethnography and Fieldwork</a></li>
 <li><a href="#course6">Food, Culture and Politics</a></li>
 <li><a href="#course7">Myth, Ritual, and Symbolism</a></li>
@@ -642,3 +642,67 @@
 </tbody>
 </table>
 </br>
+<h2 id="course4">List of all Keywords in C++ Language</h2>
+
+<p><strong>A list of 32 Keywords in C++ Language which are also available in C language:</strong></p>
+<ol>
+<li>auto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>break&nbsp;&nbsp;&nbsp;</li>
+<li>case&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>char&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>const&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>continue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>default</li>
+<li>do</li>
+<li>double&nbsp;</li>
+<li>else&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>enum&nbsp;&nbsp;&nbsp;</li>
+<li>extern&nbsp;</li>
+<li>float&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>for&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>goto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>if</li>
+<li>int&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>long&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>register&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>return&nbsp;&nbsp;</li>
+<li>short&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>signed&nbsp;&nbsp;</li>
+<li>sizeof&nbsp;&nbsp;&nbsp;</li>
+<li>static</li>
+<li>struct&nbsp;&nbsp;&nbsp;</li>
+<li>switch&nbsp;&nbsp;</li>
+<li>typedef&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>union&nbsp;&nbsp;&nbsp;</li>
+<li>unsigned&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>void&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>volatile</li>
+<li>while</li>
+</ol>
+<p><strong>A list of 30 Keywords in C++ Language which are not available in C language:</strong></p>
+<ol>
+<li>asm&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>dynamic_cast&nbsp;</li>
+<li>namespace&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>reinterpret_cast&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>bool</li>
+<li>explicit</li>
+<li>new&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>static_cast&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>false&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>catch</li>
+<li>operator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>template&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>friend&nbsp;&nbsp;</li>
+<li>private</li>
+<li>class</li>
+<li>this&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>inline&nbsp;&nbsp;&nbsp;</li>
+<li>public&nbsp;&nbsp;</li>
+<li>throw&nbsp;&nbsp;</li>
+<li>const_cast</li>
+<li>delete&nbsp;</li>
+</ol>
+
+
+
