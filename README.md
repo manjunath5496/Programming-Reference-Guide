@@ -11611,3 +11611,99 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>DOM&nbsp;<span class="color_h1">HTMLCollection</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property / Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_htmlcollection_item.asp">item()</a></td>
+<td>Returns the element at the specified index in an HTMLCollection</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_htmlcollection_length.asp">length</a></td>
+<td>Returns the number of elements in an HTMLCollection</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_htmlcollection_nameditem.asp">namedItem()</a></td>
+<td>Returns the element with the specified ID, or name, in an HTMLCollection</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Location Object Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_hash.asp">hash</a></td>
+<td>Sets or returns the anchor part (#) of a URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_host.asp">host</a></td>
+<td>Sets or returns the hostname and port number of a URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_hostname.asp">hostname</a></td>
+<td>Sets or returns the hostname of a URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_href.asp">href</a></td>
+<td>Sets or returns the entire URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_origin.asp">origin</a></td>
+<td>Returns the protocol, hostname and port number of a URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_pathname.asp">pathname</a></td>
+<td>Sets or returns the path name of a URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_port.asp">port</a></td>
+<td>Sets or returns the port number of a URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_protocol.asp">protocol</a></td>
+<td>Sets or returns the protocol of a URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/prop_loc_search.asp">search</a></td>
+<td>Sets or returns the querystring part of a URL</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Location Object Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_loc_assign.asp">assign()</a></td>
+<td>Loads a new document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_loc_reload.asp">reload()</a></td>
+<td>Reloads the current document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/met_loc_replace.asp">replace()</a></td>
+<td>Replaces the current document with a new one</td>
+</tr>
+</tbody>
+</table>
+</br>
