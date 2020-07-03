@@ -10,21 +10,9 @@
 <li><a href="#course7">Python Reference</a></li>
 <li><a href="#course8">Python Glossary</a></li>
 <li><a href="#course9">Python Module Reference</a></li>
-<li><a href="#course10">Law and Society</a></li>
+<li><a href="#course10">PHP Reference</a></li>
 <li><a href="#course11">Gender, Sexuality, and Society</a></li>
-<li><a href="#course12">Race and Science</a></li>
-<li><a href="#course13">Power: Interpersonal, Organizational and Global Dimensions</a></li>
-<li><a href="#course14">Culture, Embodiment and the Senses</a></li>
-<li><a href="#course15">History and Anthropology of Medicine and Biology</a></li>
-<li><a href="#course16">The Conquest of America</a></li>
-<li><a href="#course17">Slavery and Human Trafficking in the 21st Century</a></li>
-<li><a href="#course18">The Anthropology of Sound</a></li>
-<li><a href="#course19">The Anthropology of Politics: U.S. Presidential Election Edition</a></li>
-<li><a href="#course20">The Business of Politics: A View of Latin America</a></li>
-<li><a href="#course21">The Anthropology of Cybercultures</a></li>
-<li><a href="#course22">Medicine, Religion and Politics in Africa and the African Diaspora</a></li>
-<li><a href="#course23">Technology and Culture</a></li>
-<li><a href="#course24">The Anthropology of Politics: Persuasion and Power</a></li>
+
 
 </ul>
 <p>&nbsp;</p>
@@ -4390,3 +4378,4 @@
 </tbody>
 </table>
 </br>
+<h2 id="course10">PHP Reference</h2>
