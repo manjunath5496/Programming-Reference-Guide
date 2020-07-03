@@ -9628,5 +9628,45 @@
 </tbody>
 </table>
 
-
+<p><strong>Comparison Operators</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Operator</th>
+<th>Description</th>
+</tr>
+<tr>
+<td rowspan="2">==</td>
+<td rowspan="2">equal to</td>
+</tr>
+<tr>
+<td rowspan="2">===</td>
+<td rowspan="2">equal value and equal type</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>not equal</td>
+</tr>
+<tr>
+<td rowspan="2">!==</td>
+<td rowspan="2">not equal value or not equal type</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>greater than</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>less than</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>greater than or equal to</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>less than or equal to</td>
+</tr>
+</tbody>
+</table>
 
