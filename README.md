@@ -3866,7 +3866,7 @@
 <h2 id="course9">Python Module Reference</h2>
 
 <ul>
-<li><strong>Python&nbsp;<span class="color_h1">Random Module</span></strong></li>
+<li><strong>Python&nbsp;<span class="color_h1">Random Module</span></strong> [Methods]</li>
 </ul>
 <table class="w3-table-all notranslate">
 <tbody>
@@ -4006,7 +4006,7 @@
 </table>
 </br>
 <ul>
-<li><strong>Python&nbsp;<span class="color_h1">math Module</span></strong>[Math Methods]</li>
+<li><strong>Python&nbsp;<span class="color_h1">math Module</span></strong> [Math Methods]</li>
 </ul>
 <table class="w3-table-all notranslate">
 <tbody>
