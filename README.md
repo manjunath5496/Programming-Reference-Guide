@@ -2720,3 +2720,447 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">Set Methods</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_add.asp">add()</a></td>
+<td>Adds an element to the set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_clear.asp">clear()</a></td>
+<td>Removes all the elements from the set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_copy.asp">copy()</a></td>
+<td>Returns a copy of the set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_difference.asp">difference()</a></td>
+<td>Returns a set containing the difference between two or more sets</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_difference_update.asp">difference_update()</a></td>
+<td>Removes the items in this set that are also included in another, specified set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_discard.asp">discard()</a></td>
+<td>Remove the specified item</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_intersection.asp">intersection()</a></td>
+<td>Returns a set, that is the intersection of two other sets</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_intersection_update.asp">intersection_update()</a></td>
+<td>Removes the items in this set that are not present in other, specified set(s)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_isdisjoint.asp">isdisjoint()</a></td>
+<td>Returns whether two sets have a intersection or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_issubset.asp">issubset()</a></td>
+<td>Returns whether another set contains this set or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_issuperset.asp">issuperset()</a></td>
+<td>Returns whether this set contains another set or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_pop.asp">pop()</a></td>
+<td>Removes an element from the set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_remove.asp">remove()</a></td>
+<td>Removes the specified element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_symmetric_difference.asp">symmetric_difference()</a></td>
+<td>Returns a set with the symmetric differences of two sets</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_symmetric_difference_update.asp">symmetric_difference_update()</a></td>
+<td>inserts the symmetric differences from this set and another</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_union.asp">union()</a></td>
+<td>Return a set containing the union of sets</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_set_update.asp">update()</a></td>
+<td>Update the set with the union of this set and others</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">File Methods</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_close.asp">close()</a></td>
+<td>Closes the file</td>
+</tr>
+<tr>
+<td>detach()</td>
+<td>Returns the separated raw stream from the buffer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_fileno.asp">fileno()</a></td>
+<td>Returns a number that represents the stream, from the operating system's perspective</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_flush.asp">flush()</a></td>
+<td>Flushes the internal buffer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_isatty.asp">isatty()</a></td>
+<td>Returns whether the file stream is interactive or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_read.asp">read()</a></td>
+<td>Returns the file content</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_readable.asp">readable()</a></td>
+<td>Returns whether the file stream can be read or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_readline.asp">readline()</a></td>
+<td>Returns one line from the file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_readlines.asp">readlines()</a></td>
+<td>Returns a list of lines from the file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_seek.asp">seek()</a></td>
+<td>Change the file position</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_seekable.asp">seekable()</a></td>
+<td>Returns whether the file allows us to change the file position</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_tell.asp">tell()</a></td>
+<td>Returns the current file position</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_truncate.asp">truncate()</a></td>
+<td>Resizes the file to a specified size</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_writable.asp">writable()</a></td>
+<td>Returns whether the file can be written to or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_write.asp">write()</a></td>
+<td>Writes the specified string to the file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_file_writelines.asp">writelines()</a></td>
+<td>Writes a list of strings to the file</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">Keywords</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Keyword</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_and.asp">and</a></td>
+<td>A logical operator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_as.asp">as</a></td>
+<td>To create an alias</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_assert.asp">assert</a></td>
+<td>For debugging</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_break.asp">break</a></td>
+<td>To break out of a loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_class.asp">class</a></td>
+<td>To define a class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_continue.asp">continue</a></td>
+<td>To continue to the next iteration of a loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_def.asp">def</a></td>
+<td>To define a function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_del.asp">del</a></td>
+<td>To delete an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_elif.asp">elif</a></td>
+<td>Used in conditional statements, same as else if</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_else.asp">else</a></td>
+<td>Used in conditional statements</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_except.asp">except</a></td>
+<td>Used with exceptions, what to do when an exception occurs</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_false.asp">False</a></td>
+<td>Boolean value, result of comparison operations</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_finally.asp">finally</a></td>
+<td>Used with exceptions, a block of code that will be executed no matter if there is an exception or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_for.asp">for</a></td>
+<td>To create a for loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_from.asp">from</a></td>
+<td>To import specific parts of a module</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_global.asp">global</a></td>
+<td>To declare a global variable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_if.asp">if</a></td>
+<td>To make a conditional statement</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_import.asp">import</a></td>
+<td>To import a module</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_in.asp">in</a></td>
+<td>To check if a value is present in a list, tuple, etc.</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_is.asp">is</a></td>
+<td>To test if two variables are equal</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_lambda.asp">lambda</a></td>
+<td>To create an anonymous function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_none.asp">None</a></td>
+<td>Represents a null value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_nonlocal.asp">nonlocal</a></td>
+<td>To declare a non-local variable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_not.asp">not</a></td>
+<td>A logical operator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_or.asp">or</a></td>
+<td>A logical operator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_pass.asp">pass</a></td>
+<td>A null statement, a statement that will do nothing</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_raise.asp">raise</a></td>
+<td>To raise an exception</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_return.asp">return</a></td>
+<td>To exit a function and return a value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_true.asp">True</a></td>
+<td>Boolean value, result of comparison operations</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_try.asp">try</a></td>
+<td>To make a try...except statement</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_keyword_while.asp">while</a></td>
+<td>To create a while loop</td>
+</tr>
+<tr>
+<td>with</td>
+<td>Used to simplify exception handling</td>
+</tr>
+<tr>
+<td>yield</td>
+<td>To end a function, returns a generator</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">Built-in Exceptions</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Exception</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>ArithmeticError</td>
+<td>Raised when an error occurs in numeric calculations</td>
+</tr>
+<tr>
+<td>AssertionError</td>
+<td>Raised when an assert statement fails</td>
+</tr>
+<tr>
+<td>AttributeError</td>
+<td>Raised when attribute reference or assignment fails</td>
+</tr>
+<tr>
+<td>Exception</td>
+<td>Base class for all exceptions</td>
+</tr>
+<tr>
+<td>EOFError</td>
+<td>Raised when the input() method hits an "end of file" condition (EOF)</td>
+</tr>
+<tr>
+<td>FloatingPointError</td>
+<td>Raised when a floating point calculation fails</td>
+</tr>
+<tr>
+<td>GeneratorExit</td>
+<td>Raised when a generator is closed (with the close() method)</td>
+</tr>
+<tr>
+<td>ImportError</td>
+<td>Raised when an imported module does not exist</td>
+</tr>
+<tr>
+<td>IndentationError</td>
+<td>Raised when indendation is not correct</td>
+</tr>
+<tr>
+<td>IndexError</td>
+<td>Raised when an index of a sequence does not exist</td>
+</tr>
+<tr>
+<td>KeyError</td>
+<td>Raised when a key does not exist in a dictionary</td>
+</tr>
+<tr>
+<td>KeyboardInterrupt</td>
+<td>Raised when the user presses Ctrl+c, Ctrl+z or Delete</td>
+</tr>
+<tr>
+<td>LookupError</td>
+<td>Raised when errors raised cant be found</td>
+</tr>
+<tr>
+<td>MemoryError</td>
+<td>Raised when a program runs out of memory</td>
+</tr>
+<tr>
+<td>NameError</td>
+<td>Raised when a variable does not exist</td>
+</tr>
+<tr>
+<td>NotImplementedError</td>
+<td>Raised when an abstract method requires an inherited class to override the method</td>
+</tr>
+<tr>
+<td>OSError</td>
+<td>Raised when a system related operation causes an error</td>
+</tr>
+<tr>
+<td>OverflowError</td>
+<td>Raised when the result of a numeric calculation is too large</td>
+</tr>
+<tr>
+<td>ReferenceError</td>
+<td>Raised when a weak reference object does not exist</td>
+</tr>
+<tr>
+<td>RuntimeError</td>
+<td>Raised when an error occurs that do not belong to any specific expections</td>
+</tr>
+<tr>
+<td>StopIteration</td>
+<td>Raised when the next() method of an iterator has no further values</td>
+</tr>
+<tr>
+<td>SyntaxError</td>
+<td>Raised when a syntax error occurs</td>
+</tr>
+<tr>
+<td>TabError</td>
+<td>Raised when indentation consists of tabs or spaces</td>
+</tr>
+<tr>
+<td>SystemError</td>
+<td>Raised when a system error occurs</td>
+</tr>
+<tr>
+<td>SystemExit</td>
+<td>Raised when the sys.exit() function is called</td>
+</tr>
+<tr>
+<td>TypeError</td>
+<td>Raised when two different types are combined</td>
+</tr>
+<tr>
+<td>UnboundLocalError</td>
+<td>Raised when a local variable is referenced before assignment</td>
+</tr>
+<tr>
+<td>UnicodeError</td>
+<td>Raised when a unicode problem occurs</td>
+</tr>
+<tr>
+<td>UnicodeEncodeError</td>
+<td>Raised when a unicode encoding problem occurs</td>
+</tr>
+<tr>
+<td>UnicodeDecodeError</td>
+<td>Raised when a unicode decoding problem occurs</td>
+</tr>
+<tr>
+<td>UnicodeTranslateError</td>
+<td>Raised when a unicode translation problem occurs</td>
+</tr>
+<tr>
+<td>ValueError</td>
+<td>Raised when there is a wrong value in a specified data type</td>
+</tr>
+<tr>
+<td>ZeroDivisionError</td>
+<td>Raised when the second operator in a division is zero</td>
+</tr>
+</tbody>
+</table>
+</br>
