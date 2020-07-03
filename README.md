@@ -585,7 +585,7 @@
 <dd>Although reserved as a keyword in Java,&nbsp;<code>goto</code>&nbsp;is not used and has no function.</dd>
 </dl>
 </br>
-<h2 id="course3">Keywords in C Programming Language :</h2>
+<h2 id="course3">Keywords in C Programming Language </h2>
 
 <table>
 <thead>
