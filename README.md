@@ -4379,3 +4379,1014 @@
 </table>
 </br>
 <h2 id="course10">PHP Reference</h2>
+<ul>
+<li><strong>&nbsp;PHP Array Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array.asp">array()</a></td>
+<td>Creates an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_change_key_case.asp">array_change_key_case()</a></td>
+<td>Changes all keys in an array to lowercase or uppercase</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_chunk.asp">array_chunk()</a></td>
+<td>Splits an array into chunks of arrays</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_column.asp">array_column()</a></td>
+<td>Returns the values from a single column in the input array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_combine.asp">array_combine()</a></td>
+<td>Creates an array by using the elements from one "keys" array and one "values" array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_count_values.asp">array_count_values()</a></td>
+<td>Counts all the values of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_diff.asp">array_diff()</a></td>
+<td>Compare arrays, and returns the differences (compare values only)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_diff_assoc.asp">array_diff_assoc()</a></td>
+<td>Compare arrays, and returns the differences (compare keys and values)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_diff_key.asp">array_diff_key()</a></td>
+<td>Compare arrays, and returns the differences (compare keys only)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_diff_uassoc.asp">array_diff_uassoc()</a></td>
+<td>Compare arrays, and returns the differences (compare keys and values, using a user-defined key comparison function)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_diff_ukey.asp">array_diff_ukey()</a></td>
+<td>Compare arrays, and returns the differences (compare keys only, using a user-defined key comparison function)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_fill.asp">array_fill()</a></td>
+<td>Fills an array with values</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_fill_keys.asp">array_fill_keys()</a></td>
+<td>Fills an array with values, specifying keys</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_filter.asp">array_filter()</a></td>
+<td>Filters the values of an array using a callback function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_flip.asp">array_flip()</a></td>
+<td>Flips/Exchanges all keys with their associated values in an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_intersect.asp">array_intersect()</a></td>
+<td>Compare arrays, and returns the matches (compare values only)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_intersect_assoc.asp">array_intersect_assoc()</a></td>
+<td>Compare arrays and returns the matches (compare keys and values)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_intersect_key.asp">array_intersect_key()</a></td>
+<td>Compare arrays, and returns the matches (compare keys only)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_intersect_uassoc.asp">array_intersect_uassoc()</a></td>
+<td>Compare arrays, and returns the matches (compare keys and values, using a user-defined key comparison function)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_intersect_ukey.asp">array_intersect_ukey()</a></td>
+<td>Compare arrays, and returns the matches (compare keys only, using a user-defined key comparison function)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_key_exists.asp">array_key_exists()</a></td>
+<td>Checks if the specified key exists in the array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_keys.asp">array_keys()</a></td>
+<td>Returns all the keys of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_map.asp">array_map()</a></td>
+<td>Sends each value of an array to a user-made function, which returns new values</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_merge.asp">array_merge()</a></td>
+<td>Merges one or more arrays into one array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_merge_recursive.asp">array_merge_recursive()</a></td>
+<td>Merges one or more arrays into one array recursively</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_multisort.asp">array_multisort()</a></td>
+<td>Sorts multiple or multi-dimensional arrays</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_pad.asp">array_pad()</a></td>
+<td>Inserts a specified number of items, with a specified value, to an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_pop.asp">array_pop()</a></td>
+<td>Deletes the last element of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_product.asp">array_product()</a></td>
+<td>Calculates the product of the values in an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_push.asp">array_push()</a></td>
+<td>Inserts one or more elements to the end of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_rand.asp">array_rand()</a></td>
+<td>Returns one or more random keys from an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_reduce.asp">array_reduce()</a></td>
+<td>Returns an array as a string, using a user-defined function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_replace.asp">array_replace()</a></td>
+<td>Replaces the values of the first array with the values from following arrays</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_replace_recursive.asp">array_replace_recursive()</a></td>
+<td>Replaces the values of the first array with the values from following arrays recursively</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_reverse.asp">array_reverse()</a></td>
+<td>Returns an array in the reverse order</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_search.asp">array_search()</a></td>
+<td>Searches an array for a given value and returns the key</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_shift.asp">array_shift()</a></td>
+<td>Removes the first element from an array, and returns the value of the removed element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_slice.asp">array_slice()</a></td>
+<td>Returns selected parts of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_splice.asp">array_splice()</a></td>
+<td>Removes and replaces specified elements of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_sum.asp">array_sum()</a></td>
+<td>Returns the sum of the values in an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_udiff.asp">array_udiff()</a></td>
+<td>Compare arrays, and returns the differences (compare values only, using a user-defined key comparison function)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_udiff_assoc.asp">array_udiff_assoc()</a></td>
+<td>Compare arrays, and returns the differences (compare keys and values, using a built-in function to compare the keys and a user-defined function to compare the values)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_udiff_uassoc.asp">array_udiff_uassoc()</a></td>
+<td>Compare arrays, and returns the differences (compare keys and values, using two user-defined key comparison functions)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_uintersect.asp">array_uintersect()</a></td>
+<td>Compare arrays, and returns the matches (compare values only, using a user-defined key comparison function)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_uintersect_assoc.asp">array_uintersect_assoc()</a></td>
+<td>Compare arrays, and returns the matches (compare keys and values, using a built-in function to compare the keys and a user-defined function to compare the values)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_uintersect_uassoc.asp">array_uintersect_uassoc()</a></td>
+<td>Compare arrays, and returns the matches (compare keys and values, using two user-defined key comparison functions)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_unique.asp">array_unique()</a></td>
+<td>Removes duplicate values from an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_unshift.asp">array_unshift()</a></td>
+<td>Adds one or more elements to the beginning of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_values.asp">array_values()</a></td>
+<td>Returns all the values of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_walk.asp">array_walk()</a></td>
+<td>Applies a user function to every member of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_walk_recursive.asp">array_walk_recursive()</a></td>
+<td>Applies a user function recursively to every member of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_arsort.asp">arsort()</a></td>
+<td>Sorts an associative array in descending order, according to the value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_asort.asp">asort()</a></td>
+<td>Sorts an associative array in ascending order, according to the value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_compact.asp">compact()</a></td>
+<td>Create array containing variables and their values</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_count.asp">count()</a></td>
+<td>Returns the number of elements in an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_current.asp">current()</a></td>
+<td>Returns the current element in an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_each.asp">each()</a></td>
+<td><span class="deprecated">Deprecated from PHP 7.2.</span>&nbsp;Returns the current key and value pair from an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_end.asp">end()</a></td>
+<td>Sets the internal pointer of an array to its last element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_extract.asp">extract()</a></td>
+<td>Imports variables into the current symbol table from an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_in_array.asp">in_array()</a></td>
+<td>Checks if a specified value exists in an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_key.asp">key()</a></td>
+<td>Fetches a key from an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_krsort.asp">krsort()</a></td>
+<td>Sorts an associative array in descending order, according to the key</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_ksort.asp">ksort()</a></td>
+<td>Sorts an associative array in ascending order, according to the key</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_list.asp">list()</a></td>
+<td>Assigns variables as if they were an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_natcasesort.asp">natcasesort()</a></td>
+<td>Sorts an array using a case insensitive "natural order" algorithm</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_natsort.asp">natsort()</a></td>
+<td>Sorts an array using a "natural order" algorithm</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_next.asp">next()</a></td>
+<td>Advance the internal array pointer of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_pos.asp">pos()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_array_current.asp">current()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_prev.asp">prev()</a></td>
+<td>Rewinds the internal array pointer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_range.asp">range()</a></td>
+<td>Creates an array containing a range of elements</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_reset.asp">reset()</a></td>
+<td>Sets the internal pointer of an array to its first element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_rsort.asp">rsort()</a></td>
+<td>Sorts an indexed array in descending order</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_shuffle.asp">shuffle()</a></td>
+<td>Shuffles an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_sizeof.asp">sizeof()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_array_count.asp">count()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_sort.asp">sort()</a></td>
+<td>Sorts an indexed array in ascending order</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_uasort.asp">uasort()</a></td>
+<td>Sorts an array by values using a user-defined comparison function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_uksort.asp">uksort()</a></td>
+<td>Sorts an array by keys using a user-defined comparison function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_array_usort.asp">usort()</a></td>
+<td>Sorts an array using a user-defined comparison function</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP Calendar Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_cal_days_in_month.asp">cal_days_in_month()</a></td>
+<td>Returns the number of days in a month for a specified year and calendar</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_cal_from_jd.asp">cal_from_jd()</a></td>
+<td>Converts a Julian Day Count into a date of a specified calendar</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_cal_info.asp">cal_info()</a></td>
+<td>Returns information about a specified calendar</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_cal_to_jd.asp">cal_to_jd()</a></td>
+<td>Converts a date in a specified calendar to Julian Day Count</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_easter_date.asp">easter_date()</a></td>
+<td>Returns the Unix timestamp for midnight on Easter of a specified year</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_easter_days.asp">easter_days()</a></td>
+<td>Returns the number of days after March 21, that the Easter Day is in a specified year</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_frenchtojd.asp">frenchtojd()</a></td>
+<td>Converts a French Republican date to a Julian Day Count</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_gregoriantojd.asp">gregoriantojd()</a></td>
+<td>Converts a Gregorian date to a Julian Day Count</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_jddayofweek.asp">jddayofweek()</a></td>
+<td>Returns the day of the week</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_jdmonthname.asp">jdmonthname()</a></td>
+<td>Returns a month name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_jdtofrench.asp">jdtofrench()</a></td>
+<td>Converts a Julian Day Count to a French Republican date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_jdtogregorian.asp">jdtogregorian()</a></td>
+<td>Converts a Julian Day Count to a Gregorian date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_jdtojewish.asp">jdtojewish()</a></td>
+<td>Converts a Julian Day Count to a Jewish date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_jdtojulian.asp">jdtojulian()</a></td>
+<td>Converts a Julian Day Count to a Julian date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_jdtounix.asp">jdtounix()</a></td>
+<td>Converts Julian Day Count to Unix timestamp</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_jewishtojd.asp">jewishtojd()</a></td>
+<td>Converts a Jewish date to a Julian Day Count</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_juliantojd.asp">juliantojd()</a></td>
+<td>Converts a Julian date to a Julian Day Count</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_cal_unixtojd.asp">unixtojd()</a></td>
+<td>Converts Unix timestamp to Julian Day Count</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP Predefined Calendar Constants</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Constant</th>
+<th>Type</th>
+<th>PHP Version</th>
+</tr>
+<tr>
+<td>CAL_GREGORIAN</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_JULIAN</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_JEWISH</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_FRENCH</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_NUM_CALS</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_DOW_DAYNO</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_DOW_SHORT</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_DOW_LONG</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_MONTH_GREGORIAN_SHORT</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_MONTH_GREGORIAN_LONG</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_MONTH_JULIAN_SHORT</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_MONTH_JULIAN_LONG</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_MONTH_JEWISH</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_MONTH_FRENCH</td>
+<td>Integer</td>
+<td>PHP 4</td>
+</tr>
+<tr>
+<td>CAL_EASTER_DEFAULT</td>
+<td>Integer</td>
+<td>PHP 4.3</td>
+</tr>
+<tr>
+<td>CAL_EASTER_ROMAN</td>
+<td>Integer</td>
+<td>PHP 4.3</td>
+</tr>
+<tr>
+<td>CAL_EASTER_ALWAYS_GREGORIAN</td>
+<td>Integer</td>
+<td>PHP 4.3</td>
+</tr>
+<tr>
+<td>CAL_EASTER_ALWAYS_JULIAN</td>
+<td>Integer</td>
+<td>PHP 4.3</td>
+</tr>
+<tr>
+<td>CAL_JEWISH_ADD_ALAFIM_GERESH</td>
+<td>Integer</td>
+<td>PHP 5.0</td>
+</tr>
+<tr>
+<td>CAL_JEWISH_ADD_ALAFIM</td>
+<td>Integer</td>
+<td>PHP 5.0</td>
+</tr>
+<tr>
+<td>CAL_JEWISH_ADD_GERESHAYIM</td>
+<td>Integer</td>
+<td>PHP 5.0</td>
+</tr>
+</tbody>
+</table>
+
+</br>
+
+<ul>
+<li><strong>PHP Date/Time Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_checkdate.asp">checkdate()</a></td>
+<td>Validates a Gregorian date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_date_add.asp">date_add()</a></td>
+<td>Adds days, months, years, hours, minutes, and seconds to a date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_create_from_format.asp">date_create_from_format()</a></td>
+<td>Returns a new DateTime object formatted according to a specified format</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_date_create.asp">date_create()</a></td>
+<td>Returns a new DateTime object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_date_set.asp">date_date_set()</a></td>
+<td>Sets a new date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_default_timezone_get.asp">date_default_timezone_get()</a></td>
+<td>Returns the default timezone used by all date/time functions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_default_timezone_set.asp">date_default_timezone_set()</a></td>
+<td>Sets the default timezone used by all date/time functions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_date_diff.asp">date_diff()</a></td>
+<td>Returns the difference between two dates</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_date_format.asp">date_format()</a></td>
+<td>Returns a date formatted according to a specified format</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_get_last_errors.asp">date_get_last_errors()</a></td>
+<td>Returns the warnings/errors found in a date string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_interval_create_from_date_string.asp">date_interval_create_from_date_string()</a></td>
+<td>Sets up a DateInterval from the relative parts of the string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_interval_format.asp">date_interval_format()</a></td>
+<td>Formats the interval</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_isodate_set.asp">date_isodate_set()</a></td>
+<td>Sets the ISO date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_modify.asp">date_modify()</a></td>
+<td>Modifies the timestamp</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_offset_get.asp">date_offset_get()</a></td>
+<td>Returns the timezone offset</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_parse_from_format.asp">date_parse_from_format()</a></td>
+<td>Returns an associative array with detailed info about a specified date, according to a specified format</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_date_parse.asp">date_parse()</a></td>
+<td>Returns an associative array with detailed info about a specified date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_date_sub.asp">date_sub()</a></td>
+<td>Subtracts days, months, years, hours, minutes, and seconds from a date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_sun_info.asp">date_sun_info()</a></td>
+<td>Returns an array containing info about sunset/sunrise and twilight begin/end, for a specified day and location</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_sunrise.asp">date_sunrise()</a></td>
+<td>Returns the sunrise time for a specified day and location</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_sunset.asp">date_sunset()</a></td>
+<td>Returns the sunset time for a specified day and location</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_time_set.asp">date_time_set()</a></td>
+<td>Sets the time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timestamp_get.asp">date_timestamp_get()</a></td>
+<td>Returns the Unix timestamp</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timestamp_set.asp">date_timestamp_set()</a></td>
+<td>Sets the date and time based on a Unix timestamp</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_get.asp">date_timezone_get()</a></td>
+<td>Returns the time zone of the given DateTime object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_set.asp">date_timezone_set()</a></td>
+<td>Sets the time zone for the DateTime object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_date.asp">date()</a></td>
+<td>Formats a local date and time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_getdate.asp">getdate()</a></td>
+<td>Returns date/time information of a timestamp or the current local date/time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_gettimeofday.asp">gettimeofday()</a></td>
+<td>Returns the current time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_gmdate.asp">gmdate()</a></td>
+<td>Formats a GMT/UTC date and time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_gmmktime.asp">gmmktime()</a></td>
+<td>Returns the Unix timestamp for a GMT date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_gmstrftime.asp">gmstrftime()</a></td>
+<td>Formats a GMT/UTC date and time according to locale settings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_idate.asp">idate()</a></td>
+<td>Formats a local time/date as integer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_localtime.asp">localtime()</a></td>
+<td>Returns the local time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_microtime.asp">microtime()</a></td>
+<td>Returns the current Unix timestamp with microseconds</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_mktime.asp">mktime()</a></td>
+<td>Returns the Unix timestamp for a date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_strftime.asp">strftime()</a></td>
+<td>Formats a local time and/or date according to locale settings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_strptime.asp">strptime()</a></td>
+<td>Parses a time/date generated with strftime()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_strtotime.asp">strtotime()</a></td>
+<td>Parses an English textual datetime into a Unix timestamp</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_time.asp">time()</a></td>
+<td>Returns the current time as a Unix timestamp</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_abbreviations_list.asp">timezone_abbreviations_list()</a></td>
+<td>Returns an associative array containing dst, offset, and the timezone name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_identifiers_list.asp">timezone_identifiers_list()</a></td>
+<td>Returns an indexed array with all timezone identifiers</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_location_get.asp">timezone_location_get()</a></td>
+<td>Returns location information for a specified timezone</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_name_from_abbr.asp">timezone_name_from_ abbr()</a></td>
+<td>Returns the timezone name from abbreviation</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_name_get.asp">timezone_name_get()</a></td>
+<td>Returns the name of the timezone</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_offset_get.asp">timezone_offset_get()</a></td>
+<td>Returns the timezone offset from GMT</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_open.asp">timezone_open()</a></td>
+<td>Creates new DateTimeZone object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_transitions_get.asp">timezone_transitions_get()</a></td>
+<td>Returns all transitions for the timezone</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_date_timezone_version_get.asp">timezone_version_get()</a></td>
+<td>Returns the version of the timezonedb</td>
+</tr>
+</tbody>
+</table>
+  </br>
+<ul>
+<li><strong>PHP Predefined Date/Time Constants</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Constant</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>DATE_ATOM</td>
+<td>Atom (example: 2019-01-18T14:13:03+00:00)</td>
+</tr>
+<tr>
+<td>DATE_COOKIE</td>
+<td>HTTP Cookies (example: Fri, 18 Jan 2019 14:13:03 UTC)</td>
+</tr>
+<tr>
+<td>DATE_ISO8601</td>
+<td>ISO-8601 (example: 2019-01-18T14:13:03+0000)</td>
+</tr>
+<tr>
+<td>DATE_RFC822</td>
+<td>RFC 822 (example: Fri, 18 Jan 2019 14:13:03 +0000)</td>
+</tr>
+<tr>
+<td>DATE_RFC850</td>
+<td>RFC 850 (example: Friday, 18-Jan-19 14:13:03 UTC)</td>
+</tr>
+<tr>
+<td>DATE_RFC1036</td>
+<td>RFC 1036 (example: Friday, 18-Jan-19 14:13:03 +0000)</td>
+</tr>
+<tr>
+<td>DATE_RFC1123</td>
+<td>RFC 1123 (example: Fri, 18 Jan 2019 14:13:03 +0000)</td>
+</tr>
+<tr>
+<td>DATE_RFC2822</td>
+<td>RFC 2822 (example: Fri, 18 Jan 2019 14:13:03 +0000)</td>
+</tr>
+<tr>
+<td>DATE_RFC3339</td>
+<td>Same as DATE_ATOM (since PHP 5.1.3)</td>
+</tr>
+<tr>
+<td>DATE_RFC3339_EXTENDED</td>
+<td>RFC3339 Extended format (since PHP 7.0.0) (example: 2019-01-18T16:34:01.000+00:00)</td>
+</tr>
+<tr>
+<td>DATE_RSS</td>
+<td>RSS (Fri, 18 Jan 2019 14:13:03 +0000)</td>
+</tr>
+<tr>
+<td>DATE_W3C</td>
+<td>World Wide Web Consortium (example: 2019-01-18T14:13:03+00:00)</td>
+</tr>
+<tr>
+<td>SUNFUNCS_RET_TIMESTAMP</td>
+<td>Timestamp (since PHP 5.1.2)</td>
+</tr>
+<tr>
+<td>SUNFUNCS_RET_STRING</td>
+<td>Hours:minutes (example: 09:41) (since PHP 5.1.2)</td>
+</tr>
+<tr>
+<td>SUNFUNCS_RET_DOUBLE</td>
+<td>Hours as a floating point number (example: 9.75) (since PHP 5.1.2)</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP Directory Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_chdir.asp">chdir()</a></td>
+<td>Changes the current directory</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_chroot.asp">chroot()</a></td>
+<td>Changes the root directory</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_closedir.asp">closedir()</a></td>
+<td>Closes a directory handle</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_dir.asp">dir()</a></td>
+<td>Returns an instance of the Directory class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_getcwd.asp">getcwd()</a></td>
+<td>Returns the current working directory</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_opendir.asp">opendir()</a></td>
+<td>Opens a directory handle</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_readdir.asp">readdir()</a></td>
+<td>Returns an entry from a directory handle</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_rewinddir.asp">rewinddir()</a></td>
+<td>Resets a directory handle</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_directory_scandir.asp">scandir()</a></td>
+<td>Returns an array of files and directories of a specified directory</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+<ul>
+<li><strong>PHP Error and Logging Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_debug_backtrace.asp">debug_backtrace()</a></td>
+<td>Generates a backtrace</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_debug_print_backtrace.asp">debug_print_backtrace()</a></td>
+<td>Prints a backtrace</td>
+</tr>
+<tr>
+<td>error_clear_last()</td>
+<td>Clears the last error</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_get_last.asp">error_get_last()</a></td>
+<td>Returns the last error that occurred</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_log.asp">error_log()</a></td>
+<td>Sends an error message to a log, to a file, or to a mail account</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_reporting.asp">error_reporting()</a></td>
+<td>Specifies which errors are reported</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_restore_error_handler.asp">restore_error_handler()</a></td>
+<td>Restores the previous error handler</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_restore_exception_handler.asp">restore_exception_handler()</a></td>
+<td>Restores the previous exception handler</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_set_error_handler.asp">set_error_handler()</a></td>
+<td>Sets a user-defined error handler function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_set_exception_handler.asp">set_exception_handler()</a></td>
+<td>Sets a user-defined exception handler function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_error_trigger_error.asp">trigger_error()</a></td>
+<td>Creates a user-level error message</td>
+</tr>
+<tr>
+<td>user_error()</td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_error_trigger_error.asp">trigger_error()</a></td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP Predefined Error and Logging Constants</strong></li>
+</ul>
+
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Value</th>
+<th>Constant</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>1</td>
+<td>E_ERROR</td>
+<td>Fatal run-time errors. Errors that cannot be recovered from. Execution of the script is halted</td>
+</tr>
+<tr>
+<td>2</td>
+<td>E_WARNING</td>
+<td>Run-time warnings (non-fatal errors). Execution of the script is not halted</td>
+</tr>
+<tr>
+<td>4</td>
+<td>E_PARSE</td>
+<td>Compile-time parse errors. Parse errors should only be generated by the parser</td>
+</tr>
+<tr>
+<td>8</td>
+<td>E_NOTICE</td>
+<td>Run-time notices. The script found something that might be an error, but could also happen when running a script normally</td>
+</tr>
+<tr>
+<td>16</td>
+<td>E_CORE_ERROR</td>
+<td>Fatal errors at PHP startup. This is like E_ERROR, except it is generated by the core of PHP</td>
+</tr>
+<tr>
+<td>32</td>
+<td>E_CORE_WARNING</td>
+<td>Non-fatal errors at PHP startup. This is like E_WARNING, except it is generated by the core of PHP</td>
+</tr>
+<tr>
+<td>64</td>
+<td>E_COMPILE_ERROR</td>
+<td>Fatal compile-time errors. This is like E_ERROR, except it is generated by the Zend Scripting Engine</td>
+</tr>
+<tr>
+<td>128</td>
+<td>E_COMPILE_WARNING</td>
+<td>Non-fatal compile-time errors. This is like E_WARNING, except it is generated by the Zend Scripting Engine</td>
+</tr>
+<tr>
+<td>256</td>
+<td>E_USER_ERROR</td>
+<td>Fatal user-generated error. This is like E_ERROR, except it is generated in PHP code by using the PHP function trigger_error()</td>
+</tr>
+<tr>
+<td>512</td>
+<td>E_USER_WARNING</td>
+<td>Non-fatal user-generated warning. This is like E_WARNING, except it is generated in PHP code by using the PHP function trigger_error()</td>
+</tr>
+<tr>
+<td>1024</td>
+<td>E_USER_NOTICE</td>
+<td>User-generated notice. This is like E_NOTICE, except it is generated in PHP code by using the PHP function trigger_error()</td>
+</tr>
+<tr>
+<td>2048</td>
+<td>E_STRICT</td>
+<td>Enable to have PHP suggest changes to your code which will ensure the best interoperability and forward compatibility of your code (Since PHP 5 but not included in E_ALL until PHP 5.4)</td>
+</tr>
+<tr>
+<td>4096</td>
+<td>E_RECOVERABLE_ERROR</td>
+<td>Catchable fatal error. Indicates that a probably dangerous error occurred, but did not leave the Engine in an unstable state. If the error is not caught by a user defined handle, the application aborts as it was an E_ERROR (Since PHP 5.2)</td>
+</tr>
+<tr>
+<td>8192</td>
+<td>E_DEPRECATED</td>
+<td>Run-time notices. Enable this to receive warnings about code that will not work in future versions (Since PHP 5.3)</td>
+</tr>
+<tr>
+<td>16384</td>
+<td>E_USER_DEPRECATED</td>
+<td>User-generated warning message. This is like E_DEPRECATED, except it is generated in PHP code by using the PHP function trigger_error() (Since PHP 5.3)</td>
+</tr>
+<tr>
+<td>32767</td>
+<td>E_ALL</td>
+<td>Enable all PHP errors and warnings (except E_STRICT in versions &lt; 5.4)</td>
+</tr>
+</tbody>
+</table>
+</br>
