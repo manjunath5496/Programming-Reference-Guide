@@ -1,7 +1,7 @@
 <h2> Programming Reference Guide</h2>
 
 <ul>
-<li><a href="#course1">How Culture Works</a></li>
+<li><a href="#course1">SQL Keywords</a></li>
 <li><a href="#course2">Identity and Difference</a></li>
 <li><a href="#course3">Ethnic and National Identity</a></li>
 <li><a href="#course4">Memory, Culture, Forgetting</a></li>
@@ -28,4 +28,4 @@
 
 </ul>
 <p>&nbsp;</p>
-<h2 id="course1">How Culture Works</h2>
+<h2 id="course1">SQL Keywords</h2>
