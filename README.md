@@ -9042,8 +9042,248 @@
 </tbody>
 </table>
 </br>
-
-
+<ul>
+<li><strong>JavaScript&nbsp;<span class="color_h1">RegExp Reference</span></strong></li>
+</ul>
+<p><strong>Modifiers</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Modifier</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_g.asp">g</a></td>
+<td>Perform a global match (find all matches rather than stopping after the first match)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_i.asp">i</a></td>
+<td>Perform case-insensitive matching</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_m.asp">m</a></td>
+<td>Perform multiline matching</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Brackets</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Expression</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_charset.asp">[abc]</a></td>
+<td>Find any character between the brackets</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_charset_not.asp">[^abc]</a></td>
+<td>Find any character NOT between the brackets</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_0-9.asp">[0-9]</a></td>
+<td>Find any character between the brackets (any digit)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_not_0-9.asp">[^0-9]</a></td>
+<td>Find any character NOT between the brackets (any non-digit)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_xy.asp">(x|y)</a></td>
+<td>Find any of the alternatives specified</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Metacharacters</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Metacharacter</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_dot.asp">.</a></td>
+<td>Find a single character, except newline or line terminator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_wordchar.asp">\w</a></td>
+<td>Find a word character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_wordchar_non.asp">\W</a></td>
+<td>Find a non-word character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_digit.asp">\d</a></td>
+<td>Find a digit</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_digit_non.asp">\D</a></td>
+<td>Find a non-digit character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_whitespace.asp">\s</a></td>
+<td>Find a whitespace character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_whitespace_non.asp">\S</a></td>
+<td>Find a non-whitespace character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_begin.asp">\b</a></td>
+<td>Find a match at the beginning/end of a word, beginning like this: \bHI, end like this: HI\b</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_begin_not.asp">\B</a></td>
+<td>Find a match, but not at the beginning/end of a word</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_nul.asp">\0</a></td>
+<td>Find a NULL character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_newline.asp">\n</a></td>
+<td>Find a new line character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_formfeed.asp">\f</a></td>
+<td>Find a form feed character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_carriagereturn.asp">\r</a></td>
+<td>Find a carriage return character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_tab.asp">\t</a></td>
+<td>Find a tab character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_vtab.asp">\v</a></td>
+<td>Find a vertical tab character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_octal.asp">\xxx</a></td>
+<td>Find the character specified by an octal number xxx</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_hex.asp">\xdd</a></td>
+<td>Find the character specified by a hexadecimal number dd</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_unicode_hex.asp">\udddd</a></td>
+<td>Find the Unicode character specified by a hexadecimal number dddd</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Quantifiers</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Quantifier</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_onemore.asp">n+</a></td>
+<td>Matches any string that contains at least one&nbsp;<em>n</em></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_zeromore.asp">n*</a></td>
+<td>Matches any string that contains zero or more occurrences of&nbsp;<em>n</em></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_zeroone.asp">n?</a></td>
+<td>Matches any string that contains zero or one occurrences of&nbsp;<em>n</em></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_nx.asp">n{X}</a></td>
+<td>Matches any string that contains a sequence of&nbsp;<em>X</em>&nbsp;<em>n</em>'s</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_nxy.asp">n{X,Y}</a></td>
+<td>Matches any string that contains a sequence of X to Y&nbsp;<em>n</em>'s</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_nxcomma.asp">n{X,}</a></td>
+<td>Matches any string that contains a sequence of at least X&nbsp;<em>n</em>'s</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_ndollar.asp">n$</a></td>
+<td>Matches any string with&nbsp;<em>n</em>&nbsp;at the end of it</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_ncaret.asp">^n</a></td>
+<td>Matches any string with&nbsp;<em>n</em>&nbsp;at the beginning of it</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_nfollow.asp">?=n</a></td>
+<td>Matches any string that is followed by a specific string&nbsp;<em>n</em></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_nfollow_not.asp">?!n</a></td>
+<td>Matches any string that is not followed by a specific string&nbsp;<em>n</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>RegExp Object Properties</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_constructor.asp">constructor</a></td>
+<td>Returns the function that created the RegExp object's prototype</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_global.asp">global</a></td>
+<td>Checks whether the "g" modifier is set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_ignorecase.asp">ignoreCase</a></td>
+<td>Checks whether the "i" modifier is set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_lastindex.asp">lastIndex</a></td>
+<td>Specifies the index at which to start the next match</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_multiline.asp">multiline</a></td>
+<td>Checks whether the "m" modifier is set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_source.asp">source</a></td>
+<td>Returns the text of the RegExp pattern</td>
+</tr>
+</tbody>
+</table>
+<p><strong>RegExp Object Methods</strong></p>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_compile.asp">compile()</a></td>
+<td><span class="deprecated">Deprecated in version 1.5.</span>&nbsp;Compiles a regular expression</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_exec.asp">exec()</a></td>
+<td>Tests for a match in a string. Returns the first match</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_test.asp">test()</a></td>
+<td>Tests for a match in a string. Returns true or false</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_regexp_tostring.asp">toString()</a></td>
+<td>Returns the string value of the regular expression</td>
+</tr>
+</tbody>
+</table>
+</br>
 
 
 
