@@ -702,7 +702,14 @@
 <li>throw&nbsp;&nbsp;</li>
 <li>const_cast</li>
 <li>delete&nbsp;</li>
+<li>mutable&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>protected&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>true&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>try</li>
+<li>typeid&nbsp;</li>
+<li>typename&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>using&nbsp;&nbsp;&nbsp;</li>
+<li>virtual&nbsp;&nbsp;</li>
+<li>wchar_t</li>
 </ol>
-
-
-
+</br>
