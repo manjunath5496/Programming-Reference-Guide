@@ -8,7 +8,7 @@
 <li><a href="#course5">CSS Properties</a></li>
 <li><a href="#course6">HTML Element Reference</a></li>
 <li><a href="#course7">Python Reference</a></li>
-<li><a href="#course8">Disease and Health: Culture, Society, and Ethics</a></li>
+<li><a href="#course8">Python Glossary</a></li>
 <li><a href="#course9">Anthropology of War and Peace</a></li>
 <li><a href="#course10">Law and Society</a></li>
 <li><a href="#course11">Gender, Sexuality, and Society</a></li>
@@ -3164,3 +3164,703 @@
 </tbody>
 </table>
 </br>
+<h2 id="course8">Python Glossary</h2>
+
+<table id="glossarytable" class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_indentation.asp">Indentation</a></td>
+<td>Indentation refers to the spaces at the beginning of a code line</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_comments.asp">Comments</a></td>
+<td>Comments are code lines that will not be executed</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_multi_line_comments.asp">Multi Line Comments</a></td>
+<td>How to insert comments on multiple lines</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_creating_variables.asp">Creating Variables</a></td>
+<td>Variables are containers for storing data values</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_variable_names.asp">Variable Names</a></td>
+<td>How to name your variables</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_assign_value_to_multiple_variables.asp">Assign Values to Multiple Variables</a></td>
+<td>How to assign values to multiple variables</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_variable_output.asp">Output Variables</a></td>
+<td>Use the print statement to output variables</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_string_concatenation.asp">String Concatenation</a></td>
+<td>How to combine strings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_global_variables.asp">Global Variables</a></td>
+<td>Global variables are variables that belongs to the global scope</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_built-in_data_types.asp">Built-In Data Types</a></td>
+<td>Python has a set of built-in data types</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_getting_data_type.asp">Getting Data Type</a></td>
+<td>How to get the data type of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_setting_data_type.asp">Setting Data Type</a></td>
+<td>How to set the data type of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_numbers.asp">Numbers</a></td>
+<td>There are three numeric types in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_int.asp">Int</a></td>
+<td>The integer number type</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_float.asp">Float</a></td>
+<td>The floating number type</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_complex.asp">Complex</a></td>
+<td>The complex number type</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_type_conversion.asp">Type Conversion</a></td>
+<td>How to convert from one number type to another</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_random_number.asp">Random Number</a></td>
+<td>How to create a random number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_specify_variable_type.asp">Specify a Variable Type</a></td>
+<td>How to specify a certain data type for a variable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_string_literals.asp">String Literals</a></td>
+<td>How to create string literals</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_assign_string_variable.asp">Assigning a String to a Variable</a></td>
+<td>How to assign a string value to a variable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_multi_line_strings.asp">Multiline Strings</a></td>
+<td>How to create a multi line string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_strings_are_arrays.asp">Strings are Arrays</a></td>
+<td>Strings in Python are arrays of bytes representing Unicode characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_string_slice.asp">Slicing a String</a></td>
+<td>How to slice a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_string_negative_indexing.asp">Negative Indexing on a String</a></td>
+<td>How to use negative indexing when accessing a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_string_length.asp">String Length</a></td>
+<td>How to get the length of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_check_string.asp">Check In String</a></td>
+<td>How to check if a string contains a specified phrase</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_string_format.asp">Format String</a></td>
+<td>How to combine two strings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_escape_characters.asp">Escape Characters</a></td>
+<td>How to use escape characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_boolean_values.asp">Boolean Values</a></td>
+<td>True or False</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_evaluate_boolean_values.asp">Evaluate Booleans</a></td>
+<td>Evaluate a value or statement and return either True or False</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_return_boolean.asp">Return Boolean Value</a></td>
+<td>Functions that return a Boolean value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_operators.asp">Operators</a></td>
+<td>Use operator to perform operations in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp">Arithmetic Operators</a></td>
+<td>Arithmetic operator are used to perform common mathematical operations</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_assignment_operators.asp">Assignment Operators</a></td>
+<td>Assignment operators are use to assign values to variables</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_comparison_operators.asp">Comparison Operators</a></td>
+<td>Comparison operators are used to compare two values</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_logical_operators.asp">Logical Operators</a></td>
+<td>Logical operators are used to combine conditional statements</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_identity_operators.asp">Identity Operators</a></td>
+<td>Identity operators are used to see if two objects are in fact the same object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_membership_operators.asp">Membership Operators</a></td>
+<td>Membership operators are used to test is a sequence is present in an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_bitwise_operators.asp">Bitwise Operators</a></td>
+<td>Bitwise operators are used to compare (binary) numbers</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_lists.asp">Lists</a></td>
+<td>A list is an ordered, and changeable, collection</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_access_list_items.asp">Access List Items</a></td>
+<td>How to access items in a list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_change_list_item.asp">Change List Item</a></td>
+<td>How to change the value of a list item</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_loop_list_items.asp">Loop Through List Items</a></td>
+<td>How to loop through the items in a list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_check_if_list_item_exists.asp">Check if List Item Exists</a></td>
+<td>How to check if a specified item is present in a list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_list_length.asp">List Length</a></td>
+<td>How to determine the length of a list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_add_list_items.asp">Add List Items</a></td>
+<td>How to add items to a list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_remove_list_items.asp">Remove List Items</a></td>
+<td>How to remove list items</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_copy_list.asp">Copy a List</a></td>
+<td>How to copy a list</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_join_lists.asp">Join Two Lists</a></td>
+<td>How to join two lists</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_tuple.asp">Tuple</a></td>
+<td>A tuple is an ordered, and unchangeable, collection</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_access_tuple_items.asp">Access Tuple Items</a></td>
+<td>How to access items in a tuple</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_change_tuple_item.asp">Change Tuple Item</a></td>
+<td>How to change the value of a tuple item</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_loop_tuple_items.asp">Loop List Items</a></td>
+<td>How to loop through the items in a tuple</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_check_if_tuple_item_exists.asp">Check if Tuple Item Exists</a></td>
+<td>How to check if a specified item is present in a tuple</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_tuple_length.asp">Tuple Length</a></td>
+<td>How to determine the length of a tuple</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_tuple_one_item.asp">Tuple With One Item</a></td>
+<td>How to create a tuple with only one item</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_remove_tuple_items.asp">Remove Tuple Items</a></td>
+<td>How to remove tuple items</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_join_tuple.asp">Join Two Tuples</a></td>
+<td>How to join two tuples</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_set.asp">Set</a></td>
+<td>A set is an unordered, and unchangeable, collection</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_access_set_items.asp">Access Set Items</a></td>
+<td>How to access items in a set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_add_set_items.asp">Add Set Items</a></td>
+<td>How to add items to a set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_loop_set_items.asp">Loop Set Items</a></td>
+<td>DETTE KAPITTELET MANGLER</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_check_if_set_item_exists.asp">Check if Set Item Exists</a></td>
+<td>DETTE KAPITTELET MANGLER</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_set_length.asp">Set Length</a></td>
+<td>How to determine the length of a set</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_remove_set_items.asp">Remove Set Items</a></td>
+<td>How to remove set items</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_join_sets.asp">Join Two Sets</a></td>
+<td>How to join two sets</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_dictionary.asp">Dictionary</a></td>
+<td>A dictionary is an unordered, and changeable, collection</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_access_dictionary_items.asp">Access Dictionary Items</a></td>
+<td>How to access items in a dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_change_dictionary_item.asp">Change Dictionary Item</a></td>
+<td>How to change the value of a dictionary item</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_loop_dictionary_items.asp">Loop Dictionary Items</a></td>
+<td>How to loop through the items in a tuple</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_check_if_dictionary_item_exists.asp">Check if Dictionary Item Exists</a></td>
+<td>How to check if a specified item is present in a dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_dictionary_length.asp">Dictionary Length</a></td>
+<td>How to determine the length of a dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_dictionary_add_item.asp">Add Dictionary Item</a></td>
+<td>How to add an item to a dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_remove_dictionary_items.asp">Remove Dictionary Items</a></td>
+<td>How to remove dictionary items</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_copy_dictionary.asp">Copy Dictionary</a></td>
+<td>How to copy a dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_nested_dictionaries.asp">Nested Dictionaries</a></td>
+<td>A dictionary within a dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_if_statement.asp">If Statement</a></td>
+<td>How to write an if statement</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_if_indentation.asp">If Indentation</a></td>
+<td>If statemnts in Python relies on indentation (whitespace at the beginning of a line)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_elif.asp">Elif</a></td>
+<td>elif is the same as "else if" in other programming languages</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_else.asp">Else</a></td>
+<td>How to write an if...else statement</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_if_shorthand.asp">Shorthand If</a></td>
+<td>How to write an if statement in one line</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_if_else_shorthand.asp">Shorthand If Else</a></td>
+<td>How to write an if...else statement in one line</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_if_and.asp">If AND</a></td>
+<td>Use the and keyword to combine if statements</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_if_or.asp">If OR</a></td>
+<td>Use the or keyword to combine if statements</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_if_nested.asp">Nested If</a></td>
+<td>How to write an if statement inside an if statement</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_if_pass.asp">The pass Keyword in If</a></td>
+<td>Use the pass keyword inside empty if statements</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_while.asp">While</a></td>
+<td>How to write a while loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_while_break.asp">While Break</a></td>
+<td>How to break a while loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_while_continue.asp">While Continue</a></td>
+<td>How to stop the current iteration and continue wit the next</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_while_else.asp">While Else</a></td>
+<td>How to use an else statement in a while loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_for.asp">For</a></td>
+<td>How to write a for loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_for_string.asp">Loop Through a String</a></td>
+<td>How to loop through a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_for_break.asp">For Break</a></td>
+<td>How to break a for loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_for_continue.asp">For Continue</a></td>
+<td>How to stop the current iteration and continue wit the next</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_for_range.asp">Looping Through a rangee</a></td>
+<td>How to loop through a range of values</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_for_else.asp">For Else</a></td>
+<td>How to use an else statement in a for loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_for_nested.asp">Nested Loops</a></td>
+<td>How to write a loop inside a loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_for_pass.asp">For pass</a></td>
+<td>Use the pass keyword inside empty for loops</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function.asp">Function</a></td>
+<td>How to create a function in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_call.asp">Call a Function</a></td>
+<td>How to call a function in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_arguments.asp">Function Arguments</a></td>
+<td>How to use arguments in a function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_arbitrary_arguments.asp">*args</a></td>
+<td>To deal with an unknown number of arguments in a function, use the * symbol before the parameter name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_keyword_arguments.asp">Keyword Arguments</a></td>
+<td>How to use keyword arguments in a function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_arbitrary_keyword_arguments.asp">*kwargs</a></td>
+<td>To deal with an unknown number of keyword arguments in a function, use the * symbol before the parameter name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_default_parameter.asp">Default Parameter Value</a></td>
+<td>How to use a default parameter value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_passing_list.asp">Passing a List as an Argument</a></td>
+<td>How to pass a list as an argument</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_return_value.asp">Function Return Value</a></td>
+<td>How to return a value from a function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_pass.asp">The pass Statement i Functions</a></td>
+<td>Use the pass statement in empty functions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_function_recursion.asp">Function Recursion</a></td>
+<td>Functions that can call itself is called recursive functions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_lambda.asp">Lambda Function</a></td>
+<td>How to create anonymous functions in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_lambda_why.asp">Why Use Lambda Functions</a></td>
+<td>Learn when to use a lambda function or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_array.asp">Array</a></td>
+<td>Lists can be used as Arrays</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_arrray_what_is.asp">What is an Array</a></td>
+<td>Arrays are variables that can hold more than one value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_array_access.asp">Access Arrays</a></td>
+<td>How to access array items</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_array_length.asp">Array Length</a></td>
+<td>How to get the length of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_array_loop.asp">Looping Array Elements</a></td>
+<td>How to loop through array elements</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_array_add.asp">Add Array Element</a></td>
+<td>How to add elements from an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_array_remove.asp">Remove Array Element</a></td>
+<td>How to remove elements from an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_array_methods.asp">Array Methods</a></td>
+<td>Python has a set of Array/Lists methods</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_class.asp">Class</a></td>
+<td>A class is like an object constructor</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_class_create.asp">Create Class</a></td>
+<td>How to create a class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_class_init.asp">The Class __init__() Function</a></td>
+<td>The __init__() function is executed when the class is initiated</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_object_methods.asp">Object Methods</a></td>
+<td>Methods in objects are functions that belongs to the object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_self.asp">self</a></td>
+<td>The self parameter refers to the current instance of the class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_object_modify_properties.asp">Modify Object Properties</a></td>
+<td>How to modify properties of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_object_delete_properties.asp">Delete Object Properties</a></td>
+<td>How to modify properties of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_object_delete.asp">Delete Object</a></td>
+<td>How to delete an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_class_pass.asp">Class pass Statement</a></td>
+<td>Use the pass statement in empty classes</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_parent_class.asp">Create Parent Class</a></td>
+<td>How to create a parent class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_child_class.asp">Create Child Class</a></td>
+<td>How to create a child class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_create_init.asp">Create the __init__() Function</a></td>
+<td>How to create the __init__() function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_super.asp">super Function</a></td>
+<td>The super() function make the child class inherit the parent class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_class_add_properties.asp">Add Class Properties</a></td>
+<td>How to add a property to a class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_class_add_methods.asp">Add Class Methods</a></td>
+<td>How to add a method to a class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_iterators.asp">Iterators</a></td>
+<td>An iterator is an object that contains a countable number of values</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_iterator_vs_iterable.asp">Iterator vs Iterable</a></td>
+<td>What is the difference between an iterator and an iterable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_iterator_loop.asp">Loop Through an Iterator</a></td>
+<td>How to loop through the elements of an iterator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_iterator_create.asp">Create an Iterator</a></td>
+<td>How to create an iterator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_iterator_stop.asp">StopIteration</a></td>
+<td>How to stop an iterator</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_global_scope.asp">Global Scope</a></td>
+<td>When does a variable belong to the global scope?</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_global_keyword.asp">Global Keyword</a></td>
+<td>The global keyword makes the variable global</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_module_create.asp">Create a Module</a></td>
+<td>How to create a module</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_module_variables.asp">Variables in Modules</a></td>
+<td>How to use variables in a module</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_module_rename.asp">Renaming a Module</a></td>
+<td>How to rename a module</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_module_built-in.asp">Built-in Modules</a></td>
+<td>How to import built-in modules</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_module_dir.asp">Using the dir() Function</a></td>
+<td>List all variable names and function names in a module</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_module_import_from.asp">Import From Module</a></td>
+<td>How to import only parts from a module</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_date.asp">Datetime Module</a></td>
+<td>How to work with dates in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_date_output.asp">Date Output</a></td>
+<td>How to output a date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_date_create.asp">Create a Date Object</a></td>
+<td>How to create a date object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_date_strftime.asp">The strftime Method</a></td>
+<td>How to format a date object into a readable string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_date_format_codes.asp">Date Format Codes</a></td>
+<td>The datetime module has a set of legal format codes</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_json.asp">JSON</a></td>
+<td>How to work with JSON in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_json_parse.asp">Parse JSON</a></td>
+<td>How to parse JSON code in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_convert_into_JSON.asp">Convert into JSON</a></td>
+<td>How to convert a Python object in to JSON</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_format_json.asp">Format JSON</a></td>
+<td>How to format JSON output with indentations and line breaks</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_json_sort.asp">Sort JSON</a></td>
+<td>How to sort JSON</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_regex.asp">RegEx Module</a></td>
+<td>How to import the regex module</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_regex_functions.asp">RegEx Functions</a></td>
+<td>The re module has a set of functions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_regex_metacharacters.asp">Metacharacters in RegEx</a></td>
+<td>Metacharacters are characters with a special meaning</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_regex_sequences.asp">RegEx Special Sequences</a></td>
+<td>A backslash followed by a a character has a special meaning</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_regex_sets.asp">RegEx Sets</a></td>
+<td>A set is a set of characters inside a pair of square brackets with a special meaning</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_regex_match.asp">RegEx Match Object</a></td>
+<td>The Match Object is an object containing information about the search and the result</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_pip_install.asp">Install PIP</a></td>
+<td>How to install PIP</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_pip_packages.asp">PIP Packages</a></td>
+<td>How to download and install a package with PIP</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_pip_packages_remove.asp">PIP Remove Package</a></td>
+<td>How to remove a package with PIP</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_error_handling.asp">Error Handling</a></td>
+<td>How to handle errors in Python</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_try_except.asp">Handle Many Exceptions</a></td>
+<td>How to handle more than one exception</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_try_else.asp">Try Else</a></td>
+<td>How to use the else keyword in a try statement</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_try_finally.asp">Try Finally</a></td>
+<td>How to use the finally keyword in a try statement</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/gloss_python_raise.asp">raise</a></td>
+<td>How to raise an exception in Python</td>
+</tr>
+</tbody>
+</table>
+</br>
+
