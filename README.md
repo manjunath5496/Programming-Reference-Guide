@@ -4245,6 +4245,110 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">cmath Module </span></strong><span class="color_h1"><span class="color_h1">[cMath Methods</span></span><span class="color_h1">]</span></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_acos.asp">cmath.acos(x)</a></td>
+<td>Returns the arc cosine value of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_acosh.asp">cmath.acosh(x)</a></td>
+<td>Returns the hyperbolic arc cosine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_asin.asp">cmath.asin(x)</a></td>
+<td>Returns the arc sine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_asinh.asp">cmath.asinh(x)</a></td>
+<td>Returns the hyperbolic arc sine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_atan.asp">cmath.atan(x)</a></td>
+<td>Returns the arc tangent value of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_atanh.asp">cmath.atanh(x)</a></td>
+<td>Returns the hyperbolic arctangent value of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_cos.asp">cmath.cos(x)</a></td>
+<td>Returns the cosine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_cosh.asp">cmath.cosh(x)</a></td>
+<td>Returns the hyperbolic cosine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_exp.asp">cmath.exp(x)</a></td>
+<td>Returns the value of E<sup>x</sup>, where E is Euler's number (approximately 2.718281...), and x is the number passed to it</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_isclose.asp">cmath.isclose()</a></td>
+<td>Checks whether two values are close, or not</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_isfinite.asp">cmath.isfinite(x)</a></td>
+<td>Checks whether x is a finite number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_isinf.asp">cmath.isinf(x)</a></td>
+<td>Check whether x is a positive or negative infinty</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_isnan.asp">cmath.isnan(x)</a></td>
+<td>Checks whether x is NaN (not a number)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_log.asp">cmath.log(x[, base])</a></td>
+<td>Returns the logarithm of x to the base</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_log10.asp">cmath.log10(x)</a></td>
+<td>Returns the base-10 logarithm of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_phase.asp">cmath.phase()</a></td>
+<td>Return the phase of a complex number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_polar.asp">cmath.polar()</a></td>
+<td>Convert a complex number to polar coordinates</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_rect.asp">cmath.rect()</a></td>
+<td>Convert polar coordinates to rectangular form</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_sin.asp">cmath.sin(x)</a></td>
+<td>Returns the sine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_sinh.asp">cmath.sinh(x)</a></td>
+<td>Returns the hyperbolic sine of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_sqrt.asp">cmath.sqrt(x)</a></td>
+<td>Returns the square root of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_tan.asp">cmath.tan(x)</a></td>
+<td>Returns the tangent of x</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_tanh.asp">cmath.tanh(x)</a></td>
+<td>Returns the hyperbolic tangent of x</td>
+</tr>
+</tbody>
+</table>
 
+</br>
 
 
