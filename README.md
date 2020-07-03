@@ -3,7 +3,7 @@
 <ul>
 <li><a href="#course1">SQL Keywords</a></li>
 <li><a href="#course2">List of Java keywords</a></li>
-<li><a href="#course3">Ethnic and National Identity</a></li>
+<li><a href="#course3">Keywords in C Programming Language</a></li>
 <li><a href="#course4">Memory, Culture, Forgetting</a></li>
 <li><a href="#course5">Seminar in Ethnography and Fieldwork</a></li>
 <li><a href="#course6">Food, Culture and Politics</a></li>
@@ -585,7 +585,60 @@
 <dd>Although reserved as a keyword in Java,&nbsp;<code>goto</code>&nbsp;is not used and has no function.</dd>
 </dl>
 </br>
+<h2 id="course3">Keywords in C Programming Language :</h2>
 
-
-
-
+<table class="easy-table easy-table-default " border="1">
+<thead>
+<tr>
+<th>auto</th>
+<th>double</th>
+<th>int</th>
+<th>struct</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>break</td>
+<td>else</td>
+<td>long</td>
+<td>switch</td>
+</tr>
+<tr>
+<td>case</td>
+<td>enum</td>
+<td>register</td>
+<td>typedef</td>
+</tr>
+<tr>
+<td>char</td>
+<td>extern</td>
+<td>return</td>
+<td>union</td>
+</tr>
+<tr>
+<td>const</td>
+<td>float</td>
+<td>short</td>
+<td>unsigned</td>
+</tr>
+<tr>
+<td>continue</td>
+<td>for</td>
+<td>signed</td>
+<td>void</td>
+</tr>
+<tr>
+<td>default</td>
+<td>goto</td>
+<td>sizeof</td>
+<td>volatile</td>
+</tr>
+<tr>
+<td>do</td>
+<td>if</td>
+<td>static</td>
+<td>while</td>
+</tr>
+</tbody>
+</table>
+</br>
