@@ -11531,3 +11531,83 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong><span class="color_h1">Event</span>&nbsp;Objects</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Event Object</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_event.asp">Event</a></td>
+<td>The parent of all event objects</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_animationevent.asp">AnimationEvent</a></td>
+<td>For CSS animations</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_clipboardevent.asp">ClipboardEvent</a></td>
+<td>For modification of the clipboard</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_dragevent.asp">DragEvent</a></td>
+<td>For drag and drop interaction</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_focusevent.asp">FocusEvent</a></td>
+<td>For focus-related events</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_hashchangeevent.asp">HashChangeEvent</a></td>
+<td>For changes in the anchor part of the URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_inputevent.asp">InputEvent</a></td>
+<td>For user input</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_keyboardevent.asp">KeyboardEvent</a></td>
+<td>For keyboard interaction</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_mouseevent.asp">MouseEvent</a></td>
+<td>For mouse interaction</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_pagetransitionevent.asp">PageTransitionEvent</a></td>
+<td>For navigating to, and away from, web pages</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_popstateevent.asp">PopStateEvent</a></td>
+<td>For changes in the history entry</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_progressevent.asp">ProgressEvent</a></td>
+<td>For the progress of loading external resources</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_storageevent.asp">StorageEvent</a></td>
+<td>For changes in the window's storage area.</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_touchevent.asp">TouchEvent</a></td>
+<td>For touch interaction</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_transitionevent.asp">TransitionEvent</a></td>
+<td>For CSS transitions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_uievent.asp">UiEvent</a></td>
+<td>For user interface interaction</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/obj_wheelevent.asp">WheelEvent</a></td>
+<td>For mousewheel interaction</td>
+</tr>
+</tbody>
+</table>
+</br>
