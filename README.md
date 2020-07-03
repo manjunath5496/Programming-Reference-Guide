@@ -5390,3 +5390,1451 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>PHP Filesystem Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_basename.asp">basename()</a></td>
+<td>Returns the filename component of a path</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_chgrp.asp">chgrp()</a></td>
+<td>Changes the file group</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_chmod.asp">chmod()</a></td>
+<td>Changes the file mode</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_chown.asp">chown()</a></td>
+<td>Changes the file owner</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_clearstatcache.asp">clearstatcache()</a></td>
+<td>Clears the file status cache</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_copy.asp">copy()</a></td>
+<td>Copies a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_delete.asp">delete()</a></td>
+<td>See&nbsp;<a href="https://www.w3schools.com/php/func_filesystem_unlink.asp">unlink()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_dirname.asp">dirname()</a></td>
+<td>Returns the directory name component of a path</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_disk_free_space.asp">disk_free_space()</a></td>
+<td>Returns the free space of a filesystem or disk</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_disk_total_space.asp">disk_total_space()</a></td>
+<td>Returns the total size of a filesystem or disk</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_diskfreespace.asp">diskfreespace()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_filesystem_disk_free_space.asp">disk_free_space()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fclose.asp">fclose()</a></td>
+<td>Closes an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_feof.asp">feof()</a></td>
+<td>Checks if the "end-of-file" (EOF) has been reached for an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fflush.asp">fflush()</a></td>
+<td>Flushes buffered output to an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fgetc.asp">fgetc()</a></td>
+<td>Returns a single character from an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fgetcsv.asp">fgetcsv()</a></td>
+<td>Returns a line from an open CSV file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fgets.asp">fgets()</a></td>
+<td>Returns a line from an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fgetss.asp">fgetss()</a></td>
+<td><span class="deprecated">Deprecated from PHP 7.3.</span>&nbsp;Returns a line from an open file - stripped from HTML and PHP tags</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_file.asp">file()</a></td>
+<td>Reads a file into an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_file_exists.asp">file_exists()</a></td>
+<td>Checks whether or not a file or directory exists</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_file_get_contents.asp">file_get_contents()</a></td>
+<td>Reads a file into a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_file_put_contents.asp">file_put_contents()</a></td>
+<td>Writes data to a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fileatime.asp">fileatime()</a></td>
+<td>Returns the last access time of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_filectime.asp">filectime()</a></td>
+<td>Returns the last change time of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_filegroup.asp">filegroup()</a></td>
+<td>Returns the group ID of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fileinode.asp">fileinode()</a></td>
+<td>Returns the inode number of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_filemtime.asp">filemtime()</a></td>
+<td>Returns the last modification time of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fileowner.asp">fileowner()</a></td>
+<td>Returns the user ID (owner) of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fileperms.asp">fileperms()</a></td>
+<td>Returns the file's permissions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_filesize.asp">filesize()</a></td>
+<td>Returns the file size</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_filetype.asp">filetype()</a></td>
+<td>Returns the file type</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_flock.asp">flock()</a></td>
+<td>Locks or releases a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fnmatch.asp">fnmatch()</a></td>
+<td>Matches a filename or string against a specified pattern</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fopen.asp">fopen()</a></td>
+<td>Opens a file or URL</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fpassthru.asp">fpassthru()</a></td>
+<td>Reads from the current position in a file - until EOF, and writes the result to the output buffer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fputcsv.asp">fputcsv()</a></td>
+<td>Formats a line as CSV and writes it to an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fputs.asp">fputs()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_filesystem_fwrite.asp">fwrite()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fread.asp">fread()</a></td>
+<td>Reads from an open file (binary-safe)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fscanf.asp">fscanf()</a></td>
+<td>Parses input from an open file according to a specified format</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fseek.asp">fseek()</a></td>
+<td>Seeks in an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fstat.asp">fstat()</a></td>
+<td>Returns information about an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_ftell.asp">ftell()</a></td>
+<td>Returns the current position in an open file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_ftruncate.asp">ftruncate()</a></td>
+<td>Truncates an open file to a specified length</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_fwrite.asp">fwrite()</a></td>
+<td>Writes to an open file (binary-safe)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_glob.asp">glob()</a></td>
+<td>Returns an array of filenames / directories matching a specified pattern</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_is_dir.asp">is_dir()</a></td>
+<td>Checks whether a file is a directory</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_is_executable.asp">is_executable()</a></td>
+<td>Checks whether a file is executable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_is_file.asp">is_file()</a></td>
+<td>Checks whether a file is a regular file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_is_link.asp">is_link()</a></td>
+<td>Checks whether a file is a link</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_is_readable.asp">is_readable()</a></td>
+<td>Checks whether a file is readable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_is_uploaded_file.asp">is_uploaded_file()</a></td>
+<td>Checks whether a file was uploaded via HTTP POST</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_is_writable.asp">is_writable()</a></td>
+<td>Checks whether a file is writable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_is_writeable.asp">is_writeable()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_filesystem_is_writable.asp">is_writable()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_lchgrp.asp">lchgrp()</a></td>
+<td>Changes the group ownership of a symbolic link</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_lchown.asp">lchown()</a></td>
+<td>Changes the user ownership of a symbolic link</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_link.asp">link()</a></td>
+<td>Creates a hard link</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_linkinfo.asp">linkinfo()</a></td>
+<td>Returns information about a hard link</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_lstat.asp">lstat()</a></td>
+<td>Returns information about a file or symbolic link</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_mkdir.asp">mkdir()</a></td>
+<td>Creates a directory</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_move_uploaded_file.asp">move_uploaded_file()</a></td>
+<td>Moves an uploaded file to a new location</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_parse_ini_file.asp">parse_ini_file()</a></td>
+<td>Parses a configuration file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_parse_ini_string.asp">parse_ini_string()</a></td>
+<td>Parses a configuration string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_pathinfo.asp">pathinfo()</a></td>
+<td>Returns information about a file path</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_pclose.asp">pclose()</a></td>
+<td>Closes a pipe opened by&nbsp;<a href="https://www.w3schools.com/php/func_filesystem_popen.asp">popen()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_popen.asp">popen()</a></td>
+<td>Opens a pipe</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_readfile.asp">readfile()</a></td>
+<td>Reads a file and writes it to the output buffer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_readlink.asp">readlink()</a></td>
+<td>Returns the target of a symbolic link</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_realpath.asp">realpath()</a></td>
+<td>Returns the absolute pathname</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_realpath_cache_get.asp">realpath_cache_get()</a></td>
+<td>Returns realpath cache entries</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_realpath_cache_size.asp">realpath_cache_size()</a></td>
+<td>Returns realpath cache size</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_rename.asp">rename()</a></td>
+<td>Renames a file or directory</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_rewind.asp">rewind()</a></td>
+<td>Rewinds a file pointer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_rmdir.asp">rmdir()</a></td>
+<td>Removes an empty directory</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_set_file_buffer.asp">set_file_buffer()</a></td>
+<td>Alias of stream_set_write_buffer(). Sets the buffer size for write operations on the given file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_stat.asp">stat()</a></td>
+<td>Returns information about a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_symlink.asp">symlink()</a></td>
+<td>Creates a symbolic link</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_tempnam.asp">tempnam()</a></td>
+<td>Creates a unique temporary file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_tmpfile.asp">tmpfile()</a></td>
+<td>Creates a unique temporary file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_touch.asp">touch()</a></td>
+<td>Sets access and modification time of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_umask.asp">umask()</a></td>
+<td>Changes file permissions for files</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_filesystem_unlink.asp">unlink()</a></td>
+<td>Deletes a file</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP Zip Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_close.asp">zip_close()</a></td>
+<td>Closes a ZIP file archive</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_entry_close.asp">zip_entry_close()</a></td>
+<td>Closes a ZIP directory entry</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_entry_compressedsize.asp">zip_entry_compressedsize()</a></td>
+<td>Returns the compressed file size of a ZIP directory entry</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_entry_compressionmethod.asp">zip_entry_compressionmethod()</a></td>
+<td>Returns the compression method of a ZIP directory entry</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_entry_filesize.asp">zip_entry_filesize()</a></td>
+<td>Returns the actual file size of a ZIP directory entry</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_entry_name.asp">zip_entry_name()</a></td>
+<td>Returns the name of a ZIP directory entry</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_entry_open.asp">zip_entry_open()</a></td>
+<td>Opens a directory entry in a ZIP file for reading</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_entry_read.asp">zip_entry_read()</a></td>
+<td>Reads from an open directory entry in the ZIP file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_open.asp">zip_open()</a></td>
+<td>Opens a ZIP file archive</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_zip_read.asp">zip_read()</a></td>
+<td>Reads the next file in a open ZIP file archive</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+<ul>
+<li><strong>PHP XML Parser Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_utf8_decode.asp">utf8_decode()</a></td>
+<td>Decodes an UTF-8 string to ISO-8859-1</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_utf8_encode.asp">utf8_encode()</a></td>
+<td>Encodes an ISO-8859-1 string to UTF-8</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_error_string.asp">xml_error_string()</a></td>
+<td>Returns an error string from the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_get_current_byte_index.asp">xml_get_current_byte_index()</a></td>
+<td>Returns the current byte index from the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_get_current_column_number.asp">xml_get_current_column_number()</a></td>
+<td>Returns the current column number from the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_get_current_line_number.asp">xml_get_current_line_number()</a></td>
+<td>Returns the current line number from the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_get_error_code.asp">xml_get_error_code()</a></td>
+<td>Returns an error code from the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_parse.asp">xml_parse()</a></td>
+<td>Parses an XML document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_parse_into_struct.asp">xml_parse_into_struct()</a></td>
+<td>Parses XML data into an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_parser_create_ns.asp">xml_parser_create_ns()</a></td>
+<td>Creates an XML parser with namespace support</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_parser_create.asp">xml_parser_create()</a></td>
+<td>Creates an XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_parser_free.asp">xml_parser_free()</a></td>
+<td>Frees an XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_parser_get_option.asp">xml_parser_get_option()</a></td>
+<td>Returns options from an XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_parser_set_option.asp">xml_parser_set_option()</a></td>
+<td>Sets options in an XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_character_data_handler.asp">xml_set_character_data_handler()</a></td>
+<td>Sets up the character data handler for the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_default_handler.asp">xml_set_default_handler()</a></td>
+<td>Sets up the default data handler for the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_element_handler.asp">xml_set_element_handler()</a></td>
+<td>Sets up start and end element handlers for the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_end_namespace_decl_handler.asp">xml_set_end_namespace_decl_handler()</a></td>
+<td>Sets up the end namespace declaration handler</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_external_entity_ref_handler.asp">xml_set_external_entity_ref_handler()</a></td>
+<td>Sets up the external entity reference handler for the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_notation_decl_handler.asp">xml_set_notation_decl_handler()</a></td>
+<td>Sets up notation declaration handler for the XML parser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_object.asp">xml_set_object()</a></td>
+<td>Allows to use XML parser within an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_processing_instruction_handler.asp">xml_set_processing_instruction_handler()</a></td>
+<td>Sets up processing instruction handler</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_start_namespace_decl_handler.asp">xml_set_start_namespace_decl_handler()</a></td>
+<td>Sets up the start namespace declaration handler</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_xml_set_unparsed_entity_decl_handler.asp">xml_set_unparsed_entity_decl_handler()</a></td>
+<td>Sets handler function for unparsed entity declarations</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP XML Parser Constants</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Constant</th>
+</tr>
+<tr>
+<td>XML_ERROR_NONE (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_NO_MEMORY (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_SYNTAX (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_NO_ELEMENTS (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_INVALID_TOKEN (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_UNCLOSED_TOKEN (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_PARTIAL_CHAR (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_TAG_MISMATCH (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_DUPLICATE_ATTRIBUTE (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_JUNK_AFTER_DOC_ELEMENT (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_PARAM_ENTITY_REF (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_UNDEFINED_ENTITY (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_RECURSIVE_ENTITY_REF (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_ASYNC_ENTITY (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_BAD_CHAR_REF (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_BINARY_ENTITY_REF (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_MISPLACED_XML_PI (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_UNKNOWN_ENCODING (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_INCORRECT_ENCODING (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_UNCLOSED_CDATA_SECTION (integer)</td>
+</tr>
+<tr>
+<td>XML_ERROR_EXTERNAL_ENTITY_HANDLING (integer)</td>
+</tr>
+<tr>
+<td>XML_OPTION_CASE_FOLDING (integer)</td>
+</tr>
+<tr>
+<td>XML_OPTION_TARGET_ENCODING (integer)</td>
+</tr>
+<tr>
+<td>XML_OPTION_SKIP_TAGSTART (integer)</td>
+</tr>
+<tr>
+<td>XML_OPTION_SKIP_WHITE (integer)</td>
+</tr>
+<tr>
+<td>XML_SAX_IMPL (string)</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP String Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_addcslashes.asp">addcslashes()</a></td>
+<td>Returns a string with backslashes in front of the specified characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_addslashes.asp">addslashes()</a></td>
+<td>Returns a string with backslashes in front of predefined characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_bin2hex.asp">bin2hex()</a></td>
+<td>Converts a string of ASCII characters to hexadecimal values</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_chop.asp">chop()</a></td>
+<td>Removes whitespace or other characters from the right end of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_chr.asp">chr()</a></td>
+<td>Returns a character from a specified ASCII value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_chunk_split.asp">chunk_split()</a></td>
+<td>Splits a string into a series of smaller parts</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_convert_cyr_string.asp">convert_cyr_string()</a></td>
+<td>Converts a string from one Cyrillic character-set to another</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_convert_uudecode.asp">convert_uudecode()</a></td>
+<td>Decodes a uuencoded string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_convert_uuencode.asp">convert_uuencode()</a></td>
+<td>Encodes a string using the uuencode algorithm</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_count_chars.asp">count_chars()</a></td>
+<td>Returns information about characters used in a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_crc32.asp">crc32()</a></td>
+<td>Calculates a 32-bit CRC for a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_crypt.asp">crypt()</a></td>
+<td>One-way string hashing</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_echo.asp">echo()</a></td>
+<td>Outputs one or more strings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_explode.asp">explode()</a></td>
+<td>Breaks a string into an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_fprintf.asp">fprintf()</a></td>
+<td>Writes a formatted string to a specified output stream</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_get_html_translation_table.asp">get_html_translation_table()</a></td>
+<td>Returns the translation table used by htmlspecialchars() and htmlentities()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_hebrev.asp">hebrev()</a></td>
+<td>Converts Hebrew text to visual text</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_hebrevc.asp">hebrevc()</a></td>
+<td>Converts Hebrew text to visual text and new lines (\n) into &lt;br&gt;</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_hex2bin.asp">hex2bin()</a></td>
+<td>Converts a string of hexadecimal values to ASCII characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_html_entity_decode.asp">html_entity_decode()</a></td>
+<td>Converts HTML entities to characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_htmlentities.asp">htmlentities()</a></td>
+<td>Converts characters to HTML entities</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_htmlspecialchars_decode.asp">htmlspecialchars_decode()</a></td>
+<td>Converts some predefined HTML entities to characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_htmlspecialchars.asp">htmlspecialchars()</a></td>
+<td>Converts some predefined characters to HTML entities</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_implode.asp">implode()</a></td>
+<td>Returns a string from the elements of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_join.asp">join()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_string_implode.asp">implode()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_lcfirst.asp">lcfirst()</a></td>
+<td>Converts the first character of a string to lowercase</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_levenshtein.asp">levenshtein()</a></td>
+<td>Returns the Levenshtein distance between two strings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_localeconv.asp">localeconv()</a></td>
+<td>Returns locale numeric and monetary formatting information</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_ltrim.asp">ltrim()</a></td>
+<td>Removes whitespace or other characters from the left side of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_md5.asp">md5()</a></td>
+<td>Calculates the MD5 hash of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_md5_file.asp">md5_file()</a></td>
+<td>Calculates the MD5 hash of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_metaphone.asp">metaphone()</a></td>
+<td>Calculates the metaphone key of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_money_format.asp">money_format()</a></td>
+<td>Returns a string formatted as a currency string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_nl_langinfo.asp">nl_langinfo()</a></td>
+<td>Returns specific local information</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_nl2br.asp">nl2br()</a></td>
+<td>Inserts HTML line breaks in front of each newline in a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_number_format.asp">number_format()</a></td>
+<td>Formats a number with grouped thousands</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_ord.asp">ord()</a></td>
+<td>Returns the ASCII value of the first character of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_parse_str.asp">parse_str()</a></td>
+<td>Parses a query string into variables</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_print.asp">print()</a></td>
+<td>Outputs one or more strings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_printf.asp">printf()</a></td>
+<td>Outputs a formatted string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_quoted_printable_decode.asp">quoted_printable_decode()</a></td>
+<td>Converts a quoted-printable string to an 8-bit string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_quoted_printable_encode.asp">quoted_printable_encode()</a></td>
+<td>Converts an 8-bit string to a quoted printable string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_quotemeta.asp">quotemeta()</a></td>
+<td>Quotes meta characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_rtrim.asp">rtrim()</a></td>
+<td>Removes whitespace or other characters from the right side of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_setlocale.asp">setlocale()</a></td>
+<td>Sets locale information</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_sha1.asp">sha1()</a></td>
+<td>Calculates the SHA-1 hash of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_sha1_file.asp">sha1_file()</a></td>
+<td>Calculates the SHA-1 hash of a file</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_similar_text.asp">similar_text()</a></td>
+<td>Calculates the similarity between two strings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_soundex.asp">soundex()</a></td>
+<td>Calculates the soundex key of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_sprintf.asp">sprintf()</a></td>
+<td>Writes a formatted string to a variable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_sscanf.asp">sscanf()</a></td>
+<td>Parses input from a string according to a format</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_getcsv.asp">str_getcsv()</a></td>
+<td>Parses a CSV string into an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_ireplace.asp">str_ireplace()</a></td>
+<td>Replaces some characters in a string (case-insensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_pad.asp">str_pad()</a></td>
+<td>Pads a string to a new length</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_repeat.asp">str_repeat()</a></td>
+<td>Repeats a string a specified number of times</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_replace.asp">str_replace()</a></td>
+<td>Replaces some characters in a string (case-sensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_rot13.asp">str_rot13()</a></td>
+<td>Performs the ROT13 encoding on a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_shuffle.asp">str_shuffle()</a></td>
+<td>Randomly shuffles all characters in a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_split.asp">str_split()</a></td>
+<td>Splits a string into an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_str_word_count.asp">str_word_count()</a></td>
+<td>Count the number of words in a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strcasecmp.asp">strcasecmp()</a></td>
+<td>Compares two strings (case-insensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strchr.asp">strchr()</a></td>
+<td>Finds the first occurrence of a string inside another string (alias of strstr())</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strcmp.asp">strcmp()</a></td>
+<td>Compares two strings (case-sensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strcoll.asp">strcoll()</a></td>
+<td>Compares two strings (locale based string comparison)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strcspn.asp">strcspn()</a></td>
+<td>Returns the number of characters found in a string before any part of some specified characters are found</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strip_tags.asp">strip_tags()</a></td>
+<td>Strips HTML and PHP tags from a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_stripcslashes.asp">stripcslashes()</a></td>
+<td>Unquotes a string quoted with addcslashes()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_stripslashes.asp">stripslashes()</a></td>
+<td>Unquotes a string quoted with addslashes()</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_stripos.asp">stripos()</a></td>
+<td>Returns the position of the first occurrence of a string inside another string (case-insensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_stristr.asp">stristr()</a></td>
+<td>Finds the first occurrence of a string inside another string (case-insensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strlen.asp">strlen()</a></td>
+<td>Returns the length of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strnatcasecmp.asp">strnatcasecmp()</a></td>
+<td>Compares two strings using a "natural order" algorithm (case-insensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strnatcmp.asp">strnatcmp()</a></td>
+<td>Compares two strings using a "natural order" algorithm (case-sensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strncasecmp.asp">strncasecmp()</a></td>
+<td>String comparison of the first n characters (case-insensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strncmp.asp">strncmp()</a></td>
+<td>String comparison of the first n characters (case-sensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strpbrk.asp">strpbrk()</a></td>
+<td>Searches a string for any of a set of characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strpos.asp">strpos()</a></td>
+<td>Returns the position of the first occurrence of a string inside another string (case-sensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strrchr.asp">strrchr()</a></td>
+<td>Finds the last occurrence of a string inside another string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strrev.asp">strrev()</a></td>
+<td>Reverses a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strripos.asp">strripos()</a></td>
+<td>Finds the position of the last occurrence of a string inside another string (case-insensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strrpos.asp">strrpos()</a></td>
+<td>Finds the position of the last occurrence of a string inside another string (case-sensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strspn.asp">strspn()</a></td>
+<td>Returns the number of characters found in a string that contains only characters from a specified charlist</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strstr.asp">strstr()</a></td>
+<td>Finds the first occurrence of a string inside another string (case-sensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strtok.asp">strtok()</a></td>
+<td>Splits a string into smaller strings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strtolower.asp">strtolower()</a></td>
+<td>Converts a string to lowercase letters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strtoupper.asp">strtoupper()</a></td>
+<td>Converts a string to uppercase letters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_strtr.asp">strtr()</a></td>
+<td>Translates certain characters in a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_substr.asp">substr()</a></td>
+<td>Returns a part of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_substr_compare.asp">substr_compare()</a></td>
+<td>Compares two strings from a specified start position (binary safe and optionally case-sensitive)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_substr_count.asp">substr_count()</a></td>
+<td>Counts the number of times a substring occurs in a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_substr_replace.asp">substr_replace()</a></td>
+<td>Replaces a part of a string with another string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_trim.asp">trim()</a></td>
+<td>Removes whitespace or other characters from both sides of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_ucfirst.asp">ucfirst()</a></td>
+<td>Converts the first character of a string to uppercase</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_ucwords.asp">ucwords()</a></td>
+<td>Converts the first character of each word in a string to uppercase</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_vfprintf.asp">vfprintf()</a></td>
+<td>Writes a formatted string to a specified output stream</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_vprintf.asp">vprintf()</a></td>
+<td>Outputs a formatted string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_vsprintf.asp">vsprintf()</a></td>
+<td>Writes a formatted string to a variable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_string_wordwrap.asp">wordwrap()</a></td>
+<td>Wraps a string to a given number of characters</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP Stream Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>set_socket_blocking()</td>
+<td><span class="deprecated">Deprecated in PHP 5.4, and removed in PHP 7.0.</span>&nbsp;Alias of stream_set_blocking()</td>
+</tr>
+<tr>
+<td>stream_bucket_prepend()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_context_create()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_context_get_default()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_context_get_options()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_context_get_params()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_context_set_default()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_context_set_options()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_context_set_params()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_stream_copy_to_stream.asp">stream_copy_to_stream()</a></td>
+<td>Copies data from one stream to another</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_stream_filter_append.asp">stream_filter_append()</a></td>
+<td>Appends a filter to a stream</td>
+</tr>
+<tr>
+<td>stream_filter_prepend()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_filter_register()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_filter_remove()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_get_contents()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_get_filters()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_get_line()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_get_meta_data()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_get_transports()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_get_wrappers()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_is_local()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_isatty()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_notification_callback()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_register_wrapper()</td>
+<td>Alias of stream_wrapper_register()</td>
+</tr>
+<tr>
+<td>stream_resolve_include_path()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_select()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_set_blocking()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_set_chunk_size()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_set_read_buffer()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_set_timeout()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_set_write_buffer()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_accept()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_client()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_enable_crypto()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_get_name()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_pair()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_recvfrom()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_sendto()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_server()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_socket_shutdown()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_supports_lock()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_wrapper_register()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_wrapper_restore()</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>stream_wrapper_unregister()</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP SimpleXML Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml__construct.asp">__construct()</a></td>
+<td>Creates a new SimpleXMLElement object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml__tostring.asp">__toString()</a></td>
+<td>Returns the string content of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_addattribute.asp">addAttribute()</a></td>
+<td>Appends an attribute to the SimpleXML element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_addchild.asp">addChild()</a></td>
+<td>Appends a child element the SimpleXML element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_asxml.asp">asXML()</a></td>
+<td>Returns a well-formed XML string (XML version 1.0) from a SimpleXML object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_attributes.asp">attributes()</a></td>
+<td>Returns the attributes/values of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_children.asp">children()</a></td>
+<td>Returns the children of a specified node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_count.asp">count()</a></td>
+<td>Counts the children of a specified node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_getdocnamespaces.asp">getDocNamespaces()</a></td>
+<td>Returns the namespaces declared in document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_getname.asp">getName()</a></td>
+<td>Returns the name of an element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_getnamespaces.asp">getNamespaces()</a></td>
+<td>Returns the namespaces used in document</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_registerxpathnamespace.asp">registerXPathNamespace()</a></td>
+<td>Creates a namespace context for the next XPath query</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_savexml.asp">saveXML()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_simplexml_asxml.asp">asXML()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_import_dom.asp">simplexml_import_dom()</a></td>
+<td>Returns a SimpleXMLElement object from a DOM node</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_load_file.asp">simplexml_load_file()</a></td>
+<td>Converts an XML document to an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_load_string.asp">simplexml_load_string()</a></td>
+<td>Converts an XML string to an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_xpath.asp">xpath()</a></td>
+<td>Runs an XPath query on XML data</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP SimpleXML Iteration Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_current.asp">current()</a></td>
+<td>Returns the current element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_getchildren.asp">getChildren()</a></td>
+<td>Returns the child elements of the current element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_haschildren.asp">hasChildren()</a></td>
+<td>Checks whether the current element has children</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_key.asp">key()</a></td>
+<td>Returns the XML tag name of the current element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_next.asp">next()</a></td>
+<td>Moves to the next element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_rewind.asp">rewind()</a></td>
+<td>Rewinds to the first element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_simplexml_valid.asp">valid()</a></td>
+<td>Checks whether the current element is valid</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>PHP Network Functions</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_checkdnsrr.asp">checkdnsrr()</a></td>
+<td>Checks DNS records for&nbsp;<em>type</em>&nbsp;corresponding to&nbsp;<em>host</em></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_closelog.asp">closelog()</a></td>
+<td>Closes the connection of system logger</td>
+</tr>
+<tr>
+<td>define_syslog_variables()</td>
+<td><span class="deprecated">Deprecated and removed in PHP 5.4.</span>&nbsp;Initializes the variables used in syslog functions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_dns_check_record.asp">dns_check_record()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_network_checkdnsrr.asp">checkdnsrr()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_dns_get_mx.asp">dns_get_mx()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/func_network_getmxrr.asp">getmxrr()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_dns_get_record.asp">dns_get_record()</a></td>
+<td>Gets the DNS resource records associated with the specified hostname</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_fsockopen.asp">fsockopen()</a></td>
+<td>Opens an Internet or Unix domain socket connection</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_gethostbyaddr.asp">gethostbyaddr()</a></td>
+<td>Returns the domain name for a given IP address</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_gethostbyname.asp">gethostbyname()</a></td>
+<td>Returns the IPv4 address for a given domain/host name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_gethostbynamel.asp">gethostbynamel()</a></td>
+<td>Returns a list of IPv4 address for a given domain/host name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_gethostname.asp">gethostname()</a></td>
+<td>Returns the host name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_getmxrr.asp">getmxrr()</a></td>
+<td>Returns the MX records for the specified internet host name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_getprotobyname.asp">getprotobyname()</a></td>
+<td>Returns the protocol number for a given protocol name</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_getprotobynumber.asp">getprotobynumber()</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>Returns the protocol name for a given protocol number</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_getservbyname.asp">getservbyname()</a></td>
+<td>Returns the port number for a given Internet service and protocol</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_getservbyport.asp">getservbyport()</a></td>
+<td>Returns the Internet service for a given port and protocol</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_header_register_callback.asp">header_register_callback()</a></td>
+<td>Calls a header function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_header_remove.asp">header_remove()</a></td>
+<td>Removes an HTTP header previously set with the&nbsp;<a href="https://www.w3schools.com/php/func_network_header.asp">header()</a>&nbsp;function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_header.asp">header()</a></td>
+<td>Sends a raw HTTP header to a client</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_headers_list.asp">headers_list()</a></td>
+<td>Returns a list of response headers to be sent to the browser</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_headers_sent.asp">headers_sent()</a></td>
+<td>Checks if/where headers have been sent</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_http_response_code.asp">http_response_code()</a></td>
+<td>Sets or returns the HTTP response status code</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_inet_ntop.asp">inet_ntop()</a></td>
+<td>Converts a 32bit IPv4 or 128bit IPv6 address into a readable format</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_inet_pton.asp">inet_pton()</a></td>
+<td>Converts a readable IP address into a packed 32bit IPv4 or 128bit IPv6 format</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_ip2long.asp">ip2long()</a></td>
+<td>Converts an IPv4 address into a long integer</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_long2ip.asp">long2ip()</a></td>
+<td>Converts a long integer address into a string in IPv4 format</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_openlog.asp">openlog()</a></td>
+<td>Opens the connection of system logger</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_pfsockopen.asp">pfsockopen()</a></td>
+<td>Opens a persistent Internet or Unix domain socket connection</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_setcookie.asp">setcookie()</a></td>
+<td>Defines a cookie to be sent along with the rest of the HTTP headers</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_setrawcookie.asp">setrawcookie()</a></td>
+<td>Defines a cookie (without URL encoding) to be sent along with the rest of the HTTP headers</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_socket_get_status.asp">socket_get_status()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/php_ref_stream.asp">stream_get_meta_data()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_socket_set_blocking.asp">socket_set_blocking()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/php_ref_stream.asp">stream_set_blocking()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_socket_set_timeout.asp">socket_set_timeout()</a></td>
+<td>Alias of&nbsp;<a href="https://www.w3schools.com/php/php_ref_stream.asp">stream_set_timeout()</a></td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/php/func_network_syslog.asp">syslog()</a></td>
+<td>Generates a system log message</td>
+</tr>
+</tbody>
+</table>
+</br>
