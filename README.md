@@ -11,7 +11,7 @@
 <li><a href="#course8">Python Glossary</a></li>
 <li><a href="#course9">Python Module Reference</a></li>
 <li><a href="#course10">PHP Reference</a></li>
-<li><a href="#course11">Gender, Sexuality, and Society</a></li>
+<li><a href="#course11">JavaScript Reference</a></li>
 
 
 </ul>
@@ -8574,3 +8574,476 @@
 </tbody>
 </table>
 </br>
+<h2 id="course11">JavaScript Reference</h2>
+
+<ul>
+<li><strong>Array Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_constructor_array.asp">constructor</a></td>
+<td>Returns the function that created the Array object's prototype</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_length_array.asp">length</a></td>
+<td>Sets or returns the number of elements in an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_prototype_array.asp">prototype</a></td>
+<td>Allows you to add properties and methods to an Array object</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Array Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_concat_array.asp">concat()</a></td>
+<td>Joins two or more arrays, and returns a copy of the joined arrays</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_copywithin.asp">copyWithin()</a></td>
+<td>Copies array elements within the array, to and from specified positions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_entries.asp">entries()</a></td>
+<td>Returns a key/value pair Array Iteration Object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_every.asp">every()</a></td>
+<td>Checks if every element in an array pass a test</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_fill.asp">fill()</a></td>
+<td>Fill the elements in an array with a static value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_filter.asp">filter()</a></td>
+<td>Creates a new array with every element in an array that pass a test</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_find.asp">find()</a></td>
+<td>Returns the value of the first element in an array that pass a test</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_findindex.asp">findIndex()</a></td>
+<td>Returns the index of the first element in an array that pass a test</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_foreach.asp">forEach()</a></td>
+<td>Calls a function for each array element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_from.asp">from()</a></td>
+<td>Creates an array from an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_includes_array.asp">includes()</a></td>
+<td>Check if an array contains the specified element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_indexof_array.asp">indexOf()</a></td>
+<td>Search the array for an element and returns its position</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_isarray.asp">isArray()</a></td>
+<td>Checks whether an object is an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_join.asp">join()</a></td>
+<td>Joins all elements of an array into a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_keys.asp">keys()</a></td>
+<td>Returns a Array Iteration Object, containing the keys of the original array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_lastindexof_array.asp">lastIndexOf()</a></td>
+<td>Search the array for an element, starting at the end, and returns its position</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_map.asp">map()</a></td>
+<td>Creates a new array with the result of calling a function for each array element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_pop.asp">pop()</a></td>
+<td>Removes the last element of an array, and returns that element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_push.asp">push()</a></td>
+<td>Adds new elements to the end of an array, and returns the new length</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_reduce.asp">reduce()</a></td>
+<td>Reduce the values of an array to a single value (going left-to-right)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_reduceright.asp">reduceRight()</a></td>
+<td>Reduce the values of an array to a single value (going right-to-left)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_reverse.asp">reverse()</a></td>
+<td>Reverses the order of the elements in an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_shift.asp">shift()</a></td>
+<td>Removes the first element of an array, and returns that element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_slice_array.asp">slice()</a></td>
+<td>Selects a part of an array, and returns the new array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_some.asp">some()</a></td>
+<td>Checks if any of the elements in an array pass a test</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_sort.asp">sort()</a></td>
+<td>Sorts the elements of an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_splice.asp">splice()</a></td>
+<td>Adds/Removes elements from an array</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tostring_array.asp">toString()</a></td>
+<td>Converts an array to a string, and returns the result</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_unshift.asp">unshift()</a></td>
+<td>Adds new elements to the beginning of an array, and returns the new length</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_valueof_array.asp">valueOf()</a></td>
+<td>Returns the primitive value of an array</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+<ul>
+<li><strong>Boolean Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_constructor_boolean.asp">constructor</a></td>
+<td>Returns the function that created JavaScript's Boolean prototype</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_prototype_boolean.asp">prototype</a></td>
+<td>Allows you to add properties and methods to the Boolean prototype</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Boolean Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tostring_boolean.asp">toString()</a></td>
+<td>Converts a boolean value to a string, and returns the result</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_valueof_boolean.asp">valueOf()</a></td>
+<td>Returns the primitive value of a boolean</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Class Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_constructor_class.asp">constructor()</a></td>
+<td>A special method for creating and initializing objects created within a class</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Class Keywords</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Keyword</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_class_extends.asp">extends</a></td>
+<td>Extends a class (inherit)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_class_static.asp">static</a></td>
+<td>Defines a static method for a class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_class_super.asp">super</a></td>
+<td>Refers to the parent class</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+<ul>
+<li><strong>Date Object Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_constructor_date.asp">constructor</a></td>
+<td>Returns the function that created the Date object's prototype</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_prototype_date.asp">prototype</a></td>
+<td>Allows you to add properties and methods to an object</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>Date Object Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getdate.asp">getDate()</a></td>
+<td>Returns the day of the month (from 1-31)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getday.asp">getDay()</a></td>
+<td>Returns the day of the week (from 0-6)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getfullyear.asp">getFullYear()</a></td>
+<td>Returns the year</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_gethours.asp">getHours()</a></td>
+<td>Returns the hour (from 0-23)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getmilliseconds.asp">getMilliseconds()</a></td>
+<td>Returns the milliseconds (from 0-999)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getminutes.asp">getMinutes()</a></td>
+<td>Returns the minutes (from 0-59)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getmonth.asp">getMonth()</a></td>
+<td>Returns the month (from 0-11)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getseconds.asp">getSeconds()</a></td>
+<td>Returns the seconds (from 0-59)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_gettime.asp">getTime()</a></td>
+<td>Returns the number of milliseconds since midnight Jan 1 1970, and a specified date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_gettimezoneoffset.asp">getTimezoneOffset()</a></td>
+<td>Returns the time difference between UTC time and local time, in minutes</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getutcdate.asp">getUTCDate()</a></td>
+<td>Returns the day of the month, according to universal time (from 1-31)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getutcday.asp">getUTCDay()</a></td>
+<td>Returns the day of the week, according to universal time (from 0-6)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getutcfullyear.asp">getUTCFullYear()</a></td>
+<td>Returns the year, according to universal time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getutchours.asp">getUTCHours()</a></td>
+<td>Returns the hour, according to universal time (from 0-23)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getutcmilliseconds.asp">getUTCMilliseconds()</a></td>
+<td>Returns the milliseconds, according to universal time (from 0-999)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getutcminutes.asp">getUTCMinutes()</a></td>
+<td>Returns the minutes, according to universal time (from 0-59)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getutcmonth.asp">getUTCMonth()</a></td>
+<td>Returns the month, according to universal time (from 0-11)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_getutcseconds.asp">getUTCSeconds()</a></td>
+<td>Returns the seconds, according to universal time (from 0-59)</td>
+</tr>
+<tr>
+<td>getYear()</td>
+<td><span class="deprecated">Deprecated.</span>&nbsp;Use the&nbsp;<a href="https://www.w3schools.com/jsref/jsref_getfullyear.asp">getFullYear()</a>&nbsp;method instead</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_now.asp">now()</a></td>
+<td>Returns the number of milliseconds since midnight Jan 1, 1970</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_parse.asp">parse()</a></td>
+<td>Parses a date string and returns the number of milliseconds since January 1, 1970</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setdate.asp">setDate()</a></td>
+<td>Sets the day of the month of a date object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setfullyear.asp">setFullYear()</a></td>
+<td>Sets the year of a date object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_sethours.asp">setHours()</a></td>
+<td>Sets the hour of a date object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setmilliseconds.asp">setMilliseconds()</a></td>
+<td>Sets the milliseconds of a date object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setminutes.asp">setMinutes()</a></td>
+<td>Set the minutes of a date object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setmonth.asp">setMonth()</a></td>
+<td>Sets the month of a date object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setseconds.asp">setSeconds()</a></td>
+<td>Sets the seconds of a date object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_settime.asp">setTime()</a></td>
+<td>Sets a date to a specified number of milliseconds after/before January 1, 1970</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setutcdate.asp">setUTCDate()</a></td>
+<td>Sets the day of the month of a date object, according to universal time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setutcfullyear.asp">setUTCFullYear()</a></td>
+<td>Sets the year of a date object, according to universal time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setutchours.asp">setUTCHours()</a></td>
+<td>Sets the hour of a date object, according to universal time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setutcmilliseconds.asp">setUTCMilliseconds()</a></td>
+<td>Sets the milliseconds of a date object, according to universal time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setutcminutes.asp">setUTCMinutes()</a></td>
+<td>Set the minutes of a date object, according to universal time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setutcmonth.asp">setUTCMonth()</a></td>
+<td>Sets the month of a date object, according to universal time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_setutcseconds.asp">setUTCSeconds()</a></td>
+<td>Set the seconds of a date object, according to universal time</td>
+</tr>
+<tr>
+<td>setYear()</td>
+<td><span class="deprecated">Deprecated.</span>&nbsp;Use the&nbsp;<a href="https://www.w3schools.com/jsref/jsref_setfullyear.asp">setFullYear()</a>&nbsp;method instead</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_todatestring.asp">toDateString()</a></td>
+<td>Converts the date portion of a Date object into a readable string</td>
+</tr>
+<tr>
+<td>toGMTString()</td>
+<td><span class="deprecated">Deprecated.</span>&nbsp;Use the&nbsp;<a href="https://www.w3schools.com/jsref/jsref_toutcstring.asp">toUTCString()</a>&nbsp;method instead</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_toisostring.asp">toISOString()</a></td>
+<td>Returns the date as a string, using the ISO standard</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tojson.asp">toJSON()</a></td>
+<td>Returns the date as a string, formatted as a JSON date</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tolocaledatestring.asp">toLocaleDateString()</a></td>
+<td>Returns the date portion of a Date object as a string, using locale conventions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tolocaletimestring.asp">toLocaleTimeString()</a></td>
+<td>Returns the time portion of a Date object as a string, using locale conventions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tolocalestring.asp">toLocaleString()</a></td>
+<td>Converts a Date object to a string, using locale conventions</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tostring_date.asp">toString()</a></td>
+<td>Converts a Date object to a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_totimestring.asp">toTimeString()</a></td>
+<td>Converts the time portion of a Date object to a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_toutcstring.asp">toUTCString()</a></td>
+<td>Converts a Date object to a string, according to universal time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_utc.asp">UTC()</a></td>
+<td>Returns the number of milliseconds in a date since midnight of January 1, 1970, according to UTC time</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_valueof_date.asp">valueOf()</a></td>
+<td>Returns the primitive value of a Date object</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+
+
+
+
