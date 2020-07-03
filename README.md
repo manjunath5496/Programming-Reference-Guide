@@ -4350,5 +4350,43 @@
 </table>
 
 </br>
-
-
+<ul>
+<li>cMath Constants</li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Constant</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_e.asp">cmath.e</a></td>
+<td>Returns Euler's number (2.7182...)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_inf.asp">cmath.inf</a></td>
+<td>Returns a floating-point positive infinity value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_infj.asp">cmath.infj</a></td>
+<td>Returns a complex infinity value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_nan.asp">cmath.nan</a></td>
+<td>Returns floating-point NaN (Not a Number) value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_nanj.asp">cmath.nanj</a></td>
+<td>Returns coplext NaN (Not a Number) value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_pi.asp">cmath.pi</a></td>
+<td>Returns PI (3.1415...)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_cmath_tau.asp">cmath.tau</a></td>
+<td>Returns tau (6.2831...)</td>
+</tr>
+</tbody>
+</table>
+</br>
