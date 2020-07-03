@@ -9284,6 +9284,228 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>String Properties</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_constructor_string.asp">constructor</a></td>
+<td>Returns the string's constructor function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_length_string.asp">length</a></td>
+<td>Returns the length of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_prototype_string.asp">prototype</a></td>
+<td>Allows you to add properties and methods to an object</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>String Methods</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_charat.asp">charAt()</a></td>
+<td>Returns the character at the specified index (position)</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_charcodeat.asp">charCodeAt()</a></td>
+<td>Returns the Unicode of the character at the specified index</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_concat_string.asp">concat()</a></td>
+<td>Joins two or more strings, and returns a new joined strings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_endswith.asp">endsWith()</a></td>
+<td>Checks whether a string ends with specified string/characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_fromcharcode.asp">fromCharCode()</a></td>
+<td>Converts Unicode values to characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_includes.asp">includes()</a></td>
+<td>Checks whether a string contains the specified string/characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_indexof.asp">indexOf()</a></td>
+<td>Returns the position of the first found occurrence of a specified value in a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_lastindexof.asp">lastIndexOf()</a></td>
+<td>Returns the position of the last found occurrence of a specified value in a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_localecompare.asp">localeCompare()</a></td>
+<td>Compares two strings in the current locale</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_match.asp">match()</a></td>
+<td>Searches a string for a match against a regular expression, and returns the matches</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_repeat.asp">repeat()</a></td>
+<td>Returns a new string with a specified number of copies of an existing string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_replace.asp">replace()</a></td>
+<td>Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_search.asp">search()</a></td>
+<td>Searches a string for a specified value, or regular expression, and returns the position of the match</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_slice_string.asp">slice()</a></td>
+<td>Extracts a part of a string and returns a new string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_split.asp">split()</a></td>
+<td>Splits a string into an array of substrings</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_startswith.asp">startsWith()</a></td>
+<td>Checks whether a string begins with specified characters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_substr.asp">substr()</a></td>
+<td>Extracts the characters from a string, beginning at a specified start position, and through the specified number of character</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_substring.asp">substring()</a></td>
+<td>Extracts the characters from a string, between two specified indices</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tolocalelowercase.asp">toLocaleLowerCase()</a></td>
+<td>Converts a string to lowercase letters, according to the host's locale</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tolocaleuppercase.asp">toLocaleUpperCase()</a></td>
+<td>Converts a string to uppercase letters, according to the host's locale</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tolowercase.asp">toLowerCase()</a></td>
+<td>Converts a string to lowercase letters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_tostring_string.asp">toString()</a></td>
+<td>Returns the value of a String object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_touppercase.asp">toUpperCase()</a></td>
+<td>Converts a string to uppercase letters</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_trim_string.asp">trim()</a></td>
+<td>Removes whitespace from both ends of a string</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_valueof_string.asp">valueOf()</a></td>
+<td>Returns the primitive value of a String object</td>
+</tr>
+</tbody>
+</table>
+</br>
+<ul>
+<li><strong>JavaScript Statement Identifiers</strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Statement</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_break.asp">break</a></td>
+<td>Exits a switch or a loop</td>
+</tr>
+<tr>
+<td>const</td>
+<td>Declares a variable with a constant value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_class.asp">class</a></td>
+<td>Declares a class</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_continue.asp">continue</a></td>
+<td>Breaks one iteration (in the loop) if a specified condition occurs, and continues with the next iteration in the loop</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_debugger.asp">debugger</a></td>
+<td>Stops the execution of JavaScript, and calls (if available) the debugging function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_dowhile.asp">do ... while</a></td>
+<td>Executes a block of statements and repeats the block while a condition is true</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_for.asp">for</a></td>
+<td>Loops through a block of code a number of times</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_forin.asp">for ... in</a></td>
+<td>Loops through the properties of an object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_forof.asp">for ... of</a></td>
+<td>Loops through the values of an iterable object</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_function.asp">function</a></td>
+<td>Declares a function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_if.asp">if ... else ... else if</a></td>
+<td>Marks a block of statements to be executed depending on a condition</td>
+</tr>
+<tr>
+<td>let</td>
+<td>Declares a variable inside brackets {} scope</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_return.asp">return</a></td>
+<td>Stops the execution of a function and returns a value from that function</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_switch.asp">switch</a></td>
+<td>Marks a block of statements to be executed depending on different cases</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_throw.asp">throw</a></td>
+<td>Throws (generates) an error</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_try_catch.asp">try ... catch ... finally</a></td>
+<td>Marks the block of statements to be executed when an error occurs in a try block, and implements error handling</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_var.asp">var</a></td>
+<td>Declares a variable</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/jsref/jsref_while.asp">while</a></td>
+<td>Marks a block of statements to be executed while a condition is true</td>
+</tr>
+</tbody>
+</table>
+</br>
+
+
 
 
 
