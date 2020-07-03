@@ -5,7 +5,7 @@
 <li><a href="#course2">List of Java keywords</a></li>
 <li><a href="#course3">Keywords in C Programming Language</a></li>
 <li><a href="#course4">List of all Keywords in C++ Language</a></li>
-<li><a href="#course5">Seminar in Ethnography and Fieldwork</a></li>
+<li><a href="#course5">CSS Properties</a></li>
 <li><a href="#course6">Food, Culture and Politics</a></li>
 <li><a href="#course7">Myth, Ritual, and Symbolism</a></li>
 <li><a href="#course8">Disease and Health: Culture, Society, and Ethics</a></li>
@@ -713,3 +713,4 @@
 <li>wchar_t</li>
 </ol>
 </br>
+<h2 id="course5">CSS Properties</h2>
