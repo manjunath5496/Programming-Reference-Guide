@@ -12,7 +12,7 @@
 <li><a href="#course9">Python Module Reference</a></li>
 <li><a href="#course10">PHP Reference</a></li>
 <li><a href="#course11">JavaScript Reference</a></li>
-
+<li><a href="#course12">HTML DOM Reference</a></li>
 
 </ul>
 <p>&nbsp;</p>
@@ -10024,5 +10024,5 @@
 </tbody>
 </table>
 </br>
-
+<h2 id="course12">HTML DOM Reference</h2>
 
