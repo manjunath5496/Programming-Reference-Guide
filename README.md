@@ -2644,3 +2644,59 @@
 </tbody>
 </table>
 </br>
+<ul>
+<li><strong>Python&nbsp;<span class="color_h1">Dictionary Methods</span></strong></li>
+</ul>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_clear.asp">clear()</a></td>
+<td>Removes all the elements from the dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_copy.asp">copy()</a></td>
+<td>Returns a copy of the dictionary</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_fromkeys.asp">fromkeys()</a></td>
+<td>Returns a dictionary with the specified keys and value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_get.asp">get()</a></td>
+<td>Returns the value of the specified key</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_items.asp">items()</a></td>
+<td>Returns a list containing a tuple for each key value pair</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_keys.asp">keys()</a></td>
+<td>Returns a list containing the dictionary's keys</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_pop.asp">pop()</a></td>
+<td>Removes the element with the specified key</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_popitem.asp">popitem()</a></td>
+<td>Removes the last inserted key-value pair</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_setdefault.asp">setdefault()</a></td>
+<td>Returns the value of the specified key. If the key does not exist: insert the key, with the specified value</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_update.asp">update()</a></td>
+<td>Updates the dictionary with the specified key-value pairs</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/python/ref_dictionary_values.asp">values()</a></td>
+<td>Returns a list of all the values in the dictionary</td>
+</tr>
+</tbody>
+</table>
+</br>
